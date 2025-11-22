@@ -5,72 +5,86 @@ import { siteConfig } from '../config/site';
 ---
 
 <Layout 
-  title="CareMetrics - Insight for Better Dental Care"
-  description="Turn everyday treatment data into clear, actionable insights. CareMetrics helps dental clinics track quality, production, and utilization – clinic-wide and per provider."
+  title="CareMetrics - Trusted Analytics for Dental Clinics"
+  description="Validated clinical data and quality scorecards for dental clinics. Unlike journal systems, CareMetrics validates your data before analytics, delivering trusted quality insights with retreatment rates, complication follow-up, and multi-clinic benchmarking."
 >
   <Hero />
   
   <section id="features" class="features-section">
     <div class="container">
       <div class="section-header">
-        <h2>Key Features</h2>
+        <h2>What Makes CareMetrics Different</h2>
         <p class="section-subtitle">
-          Everything you need to track quality, production, and utilization in your dental clinic
+          The only platform that validates your data before analytics, delivering trusted quality insights that no journal system provides
         </p>
       </div>
       
       <div class="features-grid">
         <div class="feature-card">
-          <div class="feature-icon">📊</div>
-          <h3>Quality & Outcome Insights</h3>
+          <div class="feature-header">
+            <div class="feature-icon">✅</div>
+            <h3>Data Validation Engine</h3>
+          </div>
           <p>
-            Follow how treatments are going over time. Track outcomes per treatment type, 
-            spot trends and deviations, and see what works well and where you may need to change routines.
+            <strong>Unique to CareMetrics:</strong> We validate your data for correctness before analytics. 
+            Catch missing entries, duplicates, diagnosis mismatches, and incomplete records. Get a data quality score 
+            so you can trust your insights.
           </p>
         </div>
         
         <div class="feature-card">
-          <div class="feature-icon">📈</div>
-          <h3>Production & Utilization</h3>
+          <div class="feature-header">
+            <div class="feature-icon">📊</div>
+            <h3>Quality Scorecards</h3>
+          </div>
           <p>
-            Understand how your clinic's capacity is used. Track visit volumes, production per provider, 
-            and utilization indicators to better plan staffing and appointment structure.
+            Outcome-oriented metrics that matter: <strong>Retreatment rates</strong> (within 12 months), 
+            <strong>complication follow-up rates</strong>, <strong>recall compliance</strong>, and 
+            <strong>preventive vs operative ratios</strong>. Provider-level detail with trend analysis and benchmarking.
           </p>
         </div>
         
         <div class="feature-card">
-          <div class="feature-icon">🔄</div>
-          <h3>Referral & Collaboration View</h3>
+          <div class="feature-header">
+            <div class="feature-icon">📈</div>
+            <h3>Multi-Clinic Benchmarking</h3>
+          </div>
           <p>
-            Get a better grip on referral flows. See where cases come from, which referrers send which 
-            types of cases, and how volumes change over time.
+            Compare quality metrics and production KPIs across clinics. See how your clinic performs against 
+            group medians. Identify outliers and best practices. Essential for clinic chains and groups.
           </p>
         </div>
         
         <div class="feature-card">
-          <div class="feature-icon">📥</div>
-          <h3>Data Capture & Import</h3>
+          <div class="feature-header">
+            <div class="feature-icon">⚡</div>
+            <h3>Modern Production Dashboards</h3>
+          </div>
           <p>
-            Practical data entry with guided web forms or file imports. Works with any clinic system, 
-            making it easy to start with what you already have.
+            Fast-loading dashboards (&lt; 2 seconds) with revenue by provider, visit volumes, treatment categories, 
+            and patient mix. Custom filters, mobile-friendly views, and export to CSV/PDF.
           </p>
         </div>
         
         <div class="feature-card">
-          <div class="feature-icon">📱</div>
-          <h3>Interactive Dashboards</h3>
+          <div class="feature-header">
+            <div class="feature-icon">🔄</div>
+            <h3>Referral & Collaboration Insights</h3>
+          </div>
           <p>
-            Clean, configurable dashboards for clinic management and providers. Filter by time period, 
-            provider, treatment category, and export data for presentations.
+            Track referral flows, turnaround times, and specialist collaboration patterns. See which referrers 
+            send which types of cases and how volumes change over time.
           </p>
         </div>
         
         <div class="feature-card">
-          <div class="feature-icon">🔒</div>
-          <h3>Secure & Compliant</h3>
+          <div class="feature-header">
+            <div class="feature-icon">🔒</div>
+            <h3>Secure & GDPR-Compliant</h3>
+          </div>
           <p>
-            Built with healthcare and privacy requirements in mind. Access-controlled logins, 
-            encrypted communication, and clear separation between clinics' data.
+            Database-per-tenant isolation, encryption in transit and at rest, RBAC access control, and 
+            audit logs. Built for Swedish healthcare data protection requirements.
           </p>
         </div>
       </div>
@@ -81,21 +95,21 @@ import { siteConfig } from '../config/site';
     <div class="container">
       <div class="about-content">
         <div class="about-text">
-          <h2>About CareMetrics</h2>
+          <h2>Why CareMetrics?</h2>
           <p>
-            CareMetrics is a cloud-based analytics and follow-up platform designed specifically for dental care. 
-            Instead of digging through journals, exports, and spreadsheets, you get a single place to follow 
-            quality, production, and utilization – clinic-wide and per provider.
+            <strong>The problem:</strong> Most dental clinics cannot trust their own data. Journal systems and 
+            existing analytics tools show production dashboards, but they don't validate data correctness or 
+            provide outcome-oriented quality insights.
           </p>
           <p>
-            We help dental clinics turn everyday treatment data into clear, actionable insights. Our platform 
-            collects and structures key information about treatments and outcomes, presenting it in clean, 
-            interactive dashboards that are easy to understand for owners, managers, and dentists.
+            <strong>Our solution:</strong> CareMetrics is the only platform that validates your clinical data 
+            before analytics, ensuring you can trust your insights. We deliver quality scorecards with metrics 
+            like retreatment rates and complication follow-up—insights that no journal system or competitor provides.
           </p>
           <p>
-            CareMetrics is designed to fit around your existing workflows, not replace them. You continue 
-            working in your current clinic system, while CareMetrics presents the information in clear views 
-            that can be used in monthly follow-ups, quality meetings, and planning sessions.
+            Built for dental clinics, specialist clinics, and clinic groups in Sweden. We provide the validated 
+            data and quality intelligence you need for better clinical decisions, consistent care standards, and 
+            transparent quality evaluation.
           </p>
         </div>
       </div>
@@ -168,17 +182,30 @@ import { siteConfig } from '../config/site';
     transform: translateY(-4px);
     box-shadow: var(--shadow-lg);
     border-color: var(--color-primary);
+    border-width: 2px;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.02) 0%, rgba(168, 85, 247, 0.02) 100%);
+  }
+
+  .feature-card:hover h3 {
+    color: var(--color-primary);
+  }
+
+  .feature-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
   }
 
   .feature-icon {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    display: block;
+    font-size: 1.75rem;
+    flex-shrink: 0;
+    line-height: 1;
   }
 
   .feature-card h3 {
     font-size: 1.5rem;
-    margin-bottom: 0.75rem;
+    margin: 0;
     color: var(--color-text);
   }
 

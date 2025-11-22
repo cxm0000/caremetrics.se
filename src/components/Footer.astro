@@ -1,20 +1,20 @@
 ---
-const currentYear = new Date().getFullYear();
+import { siteConfig } from '../config/site';
 ---
 
 <footer class="footer">
   <div class="container">
     <div class="footer-content">
       <div class="footer-section">
-        <h3 class="footer-logo">CareMetrics</h3>
-        <p class="footer-tagline">Modern healthcare analytics and insights</p>
+        <h3 class="footer-logo">{siteConfig.name}</h3>
+        <p class="footer-tagline">{siteConfig.tagline}</p>
       </div>
       <div class="footer-section">
         <h4 class="footer-heading">Quick Links</h4>
         <ul class="footer-links">
-          <li><a href="#features">Features</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="/#features">Features</a></li>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#contact">Contact</a></li>
         </ul>
       </div>
       <div class="footer-section">
@@ -26,7 +26,7 @@ const currentYear = new Date().getFullYear();
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; {currentYear} CareMetrics. All rights reserved.</p>
+      <p>&copy; {siteConfig.company.year} {siteConfig.company.name}. All rights reserved.</p>
     </div>
   </div>
 </footer>

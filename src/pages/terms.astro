@@ -1,0 +1,146 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { siteConfig } from '../config/site';
+---
+
+<Layout 
+  title={`Terms of Service - ${siteConfig.name}`}
+  description="Terms of Service for CareMetrics - Legal terms and conditions for using our service."
+>
+  <section class="legal-page">
+    <div class="container">
+      <div class="legal-content">
+        <h1>Terms of Service</h1>
+        <p class="last-updated">Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+
+        <h2>1. Acceptance</h2>
+        <p>By using CareMetrics, you agree to these Terms. If you don't agree, don't use the service.</p>
+
+        <h2>2. Service Description</h2>
+        <p>CareMetrics is a cloud-based analytics platform for dental clinics to track quality, production, and utilization.</p>
+
+        <h2>3. Your Responsibilities</h2>
+        <p>You must be 18+ and use the service lawfully. You're responsible for your account security and the accuracy of data you enter. You must comply with GDPR and Swedish Patient Data Act when processing healthcare data.</p>
+
+        <h2>4. Prohibited Uses</h2>
+        <p>Don't use the service illegally, attempt unauthorized access, introduce malware, reverse engineer, or share account credentials.</p>
+
+        <h2>5. Your Data</h2>
+        <p>You own your data. We process it only to provide the service. You're responsible for backups. We're not liable for errors in your data.</p>
+
+        <h2>6. Intellectual Property</h2>
+        <p>The service is owned by CareMetrics. Don't copy, modify, or distribute it without permission.</p>
+
+        <h2>7. Service Availability</h2>
+        <p>The service is provided "as is" without warranties. We don't guarantee availability and may modify or discontinue the service at any time.</p>
+
+        <h2>8. Limitation of Liability</h2>
+        <p>To the maximum extent permitted by law, CareMetrics is not liable for indirect, incidental, or consequential damages. Our total liability is limited to fees paid in the preceding 12 months.</p>
+
+        <h2>9. Termination</h2>
+        <p>You can terminate your account anytime. We may terminate accounts that violate these Terms. Upon termination, your access ends and data may be deleted per our Privacy Policy.</p>
+
+        <h2>10. Governing Law</h2>
+        <p>These Terms are governed by Swedish law. Disputes are subject to Swedish courts.</p>
+
+        <h2>11. Changes</h2>
+        <p>We may modify these Terms at any time. Continued use after changes means acceptance.</p>
+
+        <h2>12. Contact</h2>
+        <p>Questions? Contact us at <a href={`mailto:${siteConfig.contact.primaryEmail}`}>{siteConfig.contact.primaryEmail}</a></p>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .legal-page {
+    padding: 4rem 0;
+    background: var(--color-bg);
+  }
+
+  .legal-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 3rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .legal-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+  }
+
+  .last-updated {
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+  }
+
+  .legal-content h2 {
+    font-size: 1.75rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+    border-bottom: 2px solid var(--color-border);
+    padding-bottom: 0.5rem;
+  }
+
+  .legal-content h3 {
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--color-text);
+  }
+
+  .legal-content p {
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: var(--color-text-secondary);
+  }
+
+  .legal-content ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+  }
+
+  .legal-content li {
+    margin-bottom: 0.5rem;
+    color: var(--color-text-secondary);
+  }
+
+  .legal-content a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .legal-content a:hover {
+    text-decoration: underline;
+  }
+
+  .legal-content strong {
+    color: var(--color-text);
+    font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    .legal-content {
+      padding: 2rem 1.5rem;
+    }
+
+    .legal-content h1 {
+      font-size: 2rem;
+    }
+
+    .legal-content h2 {
+      font-size: 1.5rem;
+    }
+  }
+</style>
+

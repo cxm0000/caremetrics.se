@@ -1,0 +1,142 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { siteConfig } from '../config/site';
+---
+
+<Layout 
+  title={`Privacy Policy - ${siteConfig.name}`}
+  description="Privacy Policy for CareMetrics - GDPR compliant privacy policy for EU and Swedish regulations."
+>
+  <section class="legal-page">
+    <div class="container">
+      <div class="legal-content">
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+
+        <h2>1. Data Controller</h2>
+        <p>
+          CareMetrics processes personal data in compliance with GDPR (EU) 2016/679 and Swedish data protection laws.
+        </p>
+        <p>
+          Contact: <a href={`mailto:${siteConfig.contact.primaryEmail}`}>{siteConfig.contact.primaryEmail}</a>
+        </p>
+
+        <h2>2. Data We Collect</h2>
+        <p>We collect account information, treatment data you enter, and usage data (IP address, browser type, access logs) necessary to provide the service.</p>
+
+        <h2>3. How We Use Your Data</h2>
+        <p>We use your data to provide and improve our services, generate analytics reports, and ensure security. Legal basis: contractual necessity, legal obligation, and legitimate interests.</p>
+
+        <h2>4. Data Sharing</h2>
+        <p>We do not sell your data. We may share data with service providers under strict agreements, or when required by law.</p>
+
+        <h2>5. Your Rights</h2>
+        <p>You have the right to access, rectify, erase, restrict processing, data portability, and object to processing. To exercise these rights, contact us at <a href={`mailto:${siteConfig.contact.primaryEmail}`}>{siteConfig.contact.primaryEmail}</a>. We respond within one month.</p>
+
+        <h2>6. Data Security & Retention</h2>
+        <p>We implement security measures including encryption and access controls. Data is retained only as long as necessary and securely deleted when no longer needed.</p>
+
+        <h2>7. International Transfers</h2>
+        <p>If data is transferred outside the EEA, we ensure appropriate safeguards are in place per GDPR requirements.</p>
+
+        <h2>8. Complaints</h2>
+        <p>You can lodge a complaint with the Swedish Authority for Privacy Protection (IMY): <a href="https://www.imy.se" target="_blank" rel="noopener noreferrer">www.imy.se</a></p>
+
+        <h2>9. Contact</h2>
+        <p>Questions? Contact us at <a href={`mailto:${siteConfig.contact.primaryEmail}`}>{siteConfig.contact.primaryEmail}</a></p>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .legal-page {
+    padding: 4rem 0;
+    background: var(--color-bg);
+  }
+
+  .legal-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 3rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .legal-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+  }
+
+  .last-updated {
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+  }
+
+  .legal-content h2 {
+    font-size: 1.75rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+    border-bottom: 2px solid var(--color-border);
+    padding-bottom: 0.5rem;
+  }
+
+  .legal-content h3 {
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--color-text);
+  }
+
+  .legal-content p {
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: var(--color-text-secondary);
+  }
+
+  .legal-content ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+  }
+
+  .legal-content li {
+    margin-bottom: 0.5rem;
+    color: var(--color-text-secondary);
+  }
+
+  .legal-content a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .legal-content a:hover {
+    text-decoration: underline;
+  }
+
+  .legal-content strong {
+    color: var(--color-text);
+    font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    .legal-content {
+      padding: 2rem 1.5rem;
+    }
+
+    .legal-content h1 {
+      font-size: 2rem;
+    }
+
+    .legal-content h2 {
+      font-size: 1.5rem;
+    }
+  }
+</style>
+

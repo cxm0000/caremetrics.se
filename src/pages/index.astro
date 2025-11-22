@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Hero from '../components/Hero.astro';
+import { siteConfig } from '../config/site';
 ---
 
 <Layout 
@@ -117,7 +118,7 @@ import Hero from '../components/Hero.astro';
             that want to work more fact-based and document quality in a structured way.
           </p>
           <p>
-            <strong>Email:</strong> <a href="mailto:info@caremetrics.se">info@caremetrics.se</a>
+            <strong>Email:</strong> <a href={`mailto:${siteConfig.contact.primaryEmail}`}>{siteConfig.contact.primaryEmail}</a>
           </p>
           <p>
             See your clinic more clearly. Support better decisions with data. Show patients and staff 

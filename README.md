@@ -48,7 +48,39 @@ The site will be available at `http://localhost:4321` during development.
 
 ## 🚢 Deployment
 
-### Cloudflare Pages (Recommended - FREE)
+### Option 1: GitHub Pages (FREE - Recommended)
+
+Everything stays on GitHub - no external services needed!
+
+1. **Enable GitHub Actions**
+   - Go to repository Settings → Actions → General
+   - Enable "Read and write permissions" for workflows
+   - Save
+
+2. **Configure GitHub Pages**
+   - Go to repository Settings → Pages
+   - Source: Select "GitHub Actions"
+   - Custom domain: Enter `caremetrics.se`
+   - Enable "Enforce HTTPS"
+
+3. **Add DNS Records at AWS Route 53**
+   - Create 4 A records (root domain) pointing to GitHub Pages IPs:
+     - `185.199.108.153`
+     - `185.199.109.153`
+     - `185.199.110.153`
+     - `185.199.111.153`
+   - Create CNAME for `www` → `yourusername.github.io`
+
+4. **Push and Deploy**
+   - The `.github/workflows/deploy.yml` file will automatically build and deploy
+   - Check Actions tab for build status
+   - Site goes live automatically!
+
+**Cost**: $0/month (100GB bandwidth/month included)
+
+See `DEPLOYMENT.md` for detailed instructions.
+
+### Option 2: Cloudflare Pages (FREE - Alternative)
 
 1. **Push to GitHub**
    ```bash

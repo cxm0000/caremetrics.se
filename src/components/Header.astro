@@ -5,7 +5,7 @@
   <div class="container">
     <nav class="nav">
       <a href="/" class="logo">
-        <span class="logo-text">CareMetrics</span>
+        <img src="/logo.svg" alt="CareMetrics" class="logo-img" />
       </a>
       <div class="nav-links">
         <a href="/#features" class="nav-link">Features</a>
@@ -35,21 +35,20 @@
 
   .logo {
     text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--color-primary);
+    display: flex;
+    align-items: center;
     transition: opacity 0.2s;
+    height: 40px;
   }
 
   .logo:hover {
     opacity: 0.8;
   }
 
-  .logo-text {
-    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  .logo-img {
+    height: 100%;
+    width: auto;
+    max-width: 180px;
   }
 
   .nav-links {

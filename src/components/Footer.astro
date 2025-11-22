@@ -6,7 +6,7 @@ import { siteConfig } from '../config/site';
   <div class="container">
     <div class="footer-content">
       <div class="footer-section">
-        <h3 class="footer-logo">{siteConfig.name}</h3>
+        <img src="/logo.svg" alt={siteConfig.name} class="footer-logo" />
         <p class="footer-tagline">{siteConfig.tagline}</p>
       </div>
       <div class="footer-section">
@@ -47,10 +47,10 @@ import { siteConfig } from '../config/site';
   }
 
   .footer-logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--color-primary);
+    height: 32px;
+    width: auto;
     margin-bottom: 0.5rem;
+    opacity: 0.9;
   }
 
   .footer-tagline {

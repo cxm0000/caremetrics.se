@@ -1,0 +1,240 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<Layout title="CareMetrics - Modern Healthcare Analytics">
+  <Hero />
+  
+  <section id="features" class="features-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Powerful Features</h2>
+        <p class="section-subtitle">
+          Everything you need to make data-driven decisions in healthcare
+        </p>
+      </div>
+      
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Advanced Analytics</h3>
+          <p>
+            Comprehensive data analysis tools that help you understand trends, 
+            patterns, and opportunities in your healthcare data.
+          </p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">📈</div>
+          <h3>Real-time Reporting</h3>
+          <p>
+            Generate instant reports and dashboards with up-to-date information 
+            to support timely decision-making.
+          </p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Secure & Compliant</h3>
+          <p>
+            Built with healthcare data security in mind, ensuring HIPAA compliance 
+            and protecting sensitive patient information.
+          </p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Fast & Reliable</h3>
+          <p>
+            Lightning-fast performance with 99.9% uptime guarantee, so your 
+            analytics are always available when you need them.
+          </p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Customizable Dashboards</h3>
+          <p>
+            Tailor your analytics experience with customizable dashboards that 
+            show exactly what matters to your organization.
+          </p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🤝</div>
+          <h3>Easy Integration</h3>
+          <p>
+            Seamlessly integrate with your existing healthcare systems and 
+            workflows for a smooth experience.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About CareMetrics</h2>
+          <p>
+            CareMetrics is dedicated to empowering healthcare organizations with 
+            modern analytics tools that transform complex data into clear, actionable insights.
+          </p>
+          <p>
+            Our platform is designed by healthcare professionals, for healthcare professionals, 
+            ensuring that every feature addresses real-world needs and challenges.
+          </p>
+          <p>
+            We believe that better data leads to better care, and we're committed to 
+            providing the tools that make that possible.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get in Touch</h2>
+        <p class="section-subtitle">
+          Ready to transform your healthcare analytics? Let's talk.
+        </p>
+      </div>
+      
+      <div class="contact-content">
+        <div class="contact-info">
+          <p>
+            For inquiries, partnerships, or support, please reach out to us.
+          </p>
+          <p>
+            <strong>Email:</strong> <a href="mailto:info@caremetrics.se">info@caremetrics.se</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .features-section {
+    background: var(--color-bg);
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.125rem;
+    color: var(--color-text-secondary);
+    margin-top: 0.5rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border);
+    transition: all 0.3s;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary);
+  }
+
+  .feature-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  .feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--color-text);
+  }
+
+  .feature-card p {
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .about-section {
+    background: var(--color-bg-secondary);
+  }
+
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .about-text h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .about-text p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+    margin-bottom: 1.25rem;
+  }
+
+  .contact-section {
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(168, 85, 247, 0.05) 100%);
+  }
+
+  .contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact-info p {
+    font-size: 1.125rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 1rem;
+  }
+
+  .contact-info a {
+    color: var(--color-primary);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .features-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .feature-card {
+      padding: 1.5rem;
+    }
+
+    .section-header {
+      margin-bottom: 2rem;
+    }
+  }
+</style>
+

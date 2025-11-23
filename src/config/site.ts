@@ -7,13 +7,13 @@ export const siteConfig = {
   // Contact information
   contact: {
     email: {
-      info: 'info@caremetrics.se',
+      info: 'hello@caremetrics.se',
       hello: 'hello@caremetrics.se',
-      support: 'support@caremetrics.se',
-      contact: 'contact@caremetrics.se',
+      support: 'hello@caremetrics.se',
+      contact: 'hello@caremetrics.se',
     },
     // Primary contact email (used in contact section)
-    primaryEmail: 'ming.cxm@gmail.com',
+    primaryEmail: 'hello@caremetrics.se',
   },
   
   // Social media (if applicable)
@@ -29,5 +29,6 @@ export const siteConfig = {
     year: new Date().getFullYear(),
   },
 } as const;
+
 
 

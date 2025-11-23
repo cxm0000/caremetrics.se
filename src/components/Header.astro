@@ -13,8 +13,8 @@ const t = getTranslations(currentLang);
 <header class="header">
   <div class="container">
     <nav class="nav">
-      <a href={getLocalizedPath('/', currentLang)} class="logo">
-        <img src="/logo.svg" alt="CareMetrics" class="logo-img" />
+      <a href={getLocalizedPath('/', currentLang)} class="logo" aria-label="CareMetrics - Go to homepage">
+        <img src="/logo.svg" alt="CareMetrics" class="logo-img" width="180" height="40" />
       </a>
       <div class="nav-links">
         <a href={getLocalizedPath('/#features', currentLang)} class="nav-link">{t.nav.features}</a>

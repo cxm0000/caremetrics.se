@@ -22,10 +22,10 @@ const t = getTranslations(lang);
 <Layout>
   <Hero lang={lang} />
   
-  <section id="features" class="features-section">
+  <section id="features" class="features-section" aria-labelledby="features-heading">
     <div class="container">
       <div class="section-header">
-        <h2>{t.features.title}</h2>
+        <h2 id="features-heading">{t.features.title}</h2>
         <p class="section-subtitle" set:html={t.features.subtitle} />
       </div>
       
@@ -81,11 +81,11 @@ const t = getTranslations(lang);
     </div>
   </section>
   
-  <section id="about" class="about-section">
+  <section id="about" class="about-section" aria-labelledby="about-heading">
     <div class="container">
       <div class="about-content">
         <div class="about-text">
-          <h2>{t.about.title}</h2>
+          <h2 id="about-heading">{t.about.title}</h2>
           <p>
             {t.about.paragraph1}
           </p>
@@ -98,10 +98,10 @@ const t = getTranslations(lang);
     </div>
   </section>
   
-  <section id="contact" class="contact-section">
+  <section id="contact" class="contact-section" aria-labelledby="contact-heading">
     <div class="container">
       <div class="section-header">
-        <h2>{t.contact.title}</h2>
+        <h2 id="contact-heading">{t.contact.title}</h2>
         <p class="section-subtitle" set:html={t.contact.subtitle} />
       </div>
       

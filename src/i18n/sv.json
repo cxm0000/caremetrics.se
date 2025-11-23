@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "CareMetrics - Pålitlig analys för tandkliniker",
+    "description": "Validerad klinisk data och kvalitetsrapporter för tandkliniker. <strong>CareMetrics</strong> validerar din data före analys, och levererar pålitliga kvalitetsinsikter med återbehandlingsfrekvenser, komplikationsuppföljning och flerklinikbenchmarking."
+  },
+  "nav": {
+    "features": "Funktioner",
+    "about": "Om oss",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Pålitlig analys för",
+    "titleHighlight": "Tandkliniker",
+    "description": "<strong>CareMetrics</strong> levererar <strong>validerad klinisk data</strong>, <strong>kvalitetsrapporter</strong> och <strong>flerklinikbenchmarking</strong>—hjälper tandkliniker att fatta bättre beslut med tillförlitliga, resultatorienterade insikter.",
+    "cta": {
+      "getStarted": "Kom igång",
+      "learnMore": "Läs mer"
+    }
+  },
+  "features": {
+    "title": "Vad gör CareMetrics unikt",
+    "subtitle": "<strong>CareMetrics</strong> validerar din data före analys, och levererar pålitliga kvalitetsinsikter och resultatorienterade mätvärden för tandkliniker",
+    "dataValidation": {
+      "title": "Datavalideringsmotor",
+      "description": "<strong>Unikt för CareMetrics:</strong> Vi validerar din data för korrekthet före analys. Identifiera och hjälp till att lösa saknade poster, dubbletter, diagnosfelmatchningar och ofullständiga register. Få en datakvalitetspoäng så att du kan lita på dina insikter."
+    },
+    "qualityScorecards": {
+      "title": "Kvalitetsrapporter",
+      "description": "Resultatorienterade mätvärden som spelar roll: <strong>Återbehandlingsfrekvenser</strong> (inom 12 månader), <strong>komplikationsuppföljningsfrekvenser</strong>, <strong>återkallningsföljsamhet</strong> och <strong>preventiva vs operativa förhållanden</strong>. Leverantörsnivådetaljer med trendanalys och benchmarking."
+    },
+    "benchmarking": {
+      "title": "Flerklinikbenchmarking",
+      "description": "Jämför kvalitetsmätvärden och produktions-KPI:er mellan kliniker. Se hur din klinik presterar mot gruppmedianer. Identifiera avvikelser och bästa praxis. Viktigt för klinikkedjor och grupper."
+    },
+    "dashboards": {
+      "title": "Moderna produktionsinstrumentpaneler",
+      "description": "Snabbladdande instrumentpaneler (&lt; 2 sekunder) med intäkter per leverantör, besöksvolymer, behandlingskategorier och patientmix. Anpassade filter, mobilvänliga vyer och export till CSV/PDF."
+    },
+    "referrals": {
+      "title": "Remiss- och samarbetsinsikter",
+      "description": "Spåra remissflöden, omsättningstider och specialistens samarbetsmönster. Se vilka remittenter som skickar vilka typer av ärenden och hur volymerna förändras över tid."
+    },
+    "security": {
+      "title": "Säker och GDPR-kompatibel",
+      "description": "Databas-per-tenant-isolering, kryptering under överföring och i vila, RBAC-åtkomstkontroll och revisionsloggar. Byggd för svenska hälso- och sjukvårdsdataskyddskrav."
+    }
+  },
+  "about": {
+    "title": "Varför CareMetrics?",
+    "paragraph1": "Många tandkliniker förlitar sig på journalsystem och analysverktyg som främst fokuserar på produktionsinstrumentpaneler. Även om de är användbara saknar dessa verktyg ofta datavalidering och resultatorienterade kvalitetsinsikter som hjälper kliniker att förstå och förbättra sin vårdkvalitet.",
+    "paragraph2": "<strong>CareMetrics</strong> levererar validerad klinisk data, kvalitetsrapporter och flerklinikbenchmarking—hjälper tandkliniker att fatta bättre beslut med tillförlitliga, resultatorienterade insikter. Vi validerar din kliniska data före analys, vilket säkerställer att du kan lita på dina insikter. Våra kvalitetsrapporter inkluderar mätvärden som återbehandlingsfrekvenser och komplikationsuppföljning som ger djupare förståelse för vårdkvalitet.",
+    "paragraph3": "Byggd för tandkliniker, specialistkliniker och klinikgrupper i Sverige. Vi tillhandahåller den validerade data och kvalitetsintelligens du behöver för bättre kliniska beslut, konsekventa vårdstandarder och transparent kvalitetsutvärdering."
+  },
+  "contact": {
+    "title": "Kontakta oss",
+    "subtitle": "Redo att se din klinik tydligare? Låt oss prata om hur <strong>CareMetrics</strong> kan hjälpa.",
+    "description": "<strong>CareMetrics</strong> är designad för privata tandkliniker, specialistkliniker och klinikgrupper som vill arbeta mer faktabaserat och dokumentera kvalitet på ett strukturerat sätt.",
+    "email": "E-post:",
+    "closing": "Se din klinik tydligare. Stöd bättre beslut med data. Visa patienter och personal att du arbetar aktivt med kvalitet."
+  },
+  "footer": {
+    "quickLinks": "Snabb länkar",
+    "legal": "Juridik",
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "rights": "Alla rättigheter förbehållna"
+  },
+  "privacy": {
+    "title": "Integritetspolicy",
+    "lastUpdated": "Senast uppdaterad:",
+    "dataController": {
+      "title": "1. Datansvarig",
+      "description": "<strong>CareMetrics</strong> behandlar personuppgifter i enlighet med GDPR (EU) 2016/679 och svenska dataskyddslagar.",
+      "contact": "Kontakt:"
+    },
+    "dataCollection": {
+      "title": "2. Data vi samlar in",
+      "description": "Vi samlar in kontoinformation, behandlingsdata som du anger och användningsdata (IP-adress, webbläsartyp, åtkomstloggar) som är nödvändiga för att tillhandahålla tjänsten."
+    },
+    "dataUsage": {
+      "title": "3. Hur vi använder din data",
+      "description": "Vi använder din data för att tillhandahålla och förbättra våra tjänster, generera analysrapporter och säkerställa säkerhet. Rättslig grund: kontraktsnödvändighet, rättslig skyldighet och legitima intressen."
+    },
+    "dataSharing": {
+      "title": "4. Datadelning",
+      "description": "Vi säljer inte din data. Vi kan dela data med tjänsteleverantörer under strikta avtal eller när det krävs enligt lag."
+    },
+    "rights": {
+      "title": "5. Dina rättigheter",
+      "description": "Du har rätt till åtkomst, rättelse, radering, begränsning av behandling, dataportabilitet och invändning mot behandling. För att utöva dessa rättigheter, kontakta oss på",
+      "response": "Vi svarar inom en månad."
+    },
+    "security": {
+      "title": "6. Datasäkerhet och kvarhållande",
+      "description": "Vi implementerar säkerhetsåtgärder inklusive kryptering och åtkomstkontroller. Data behålls endast så länge som nödvändigt och raderas säkert när den inte längre behövs."
+    },
+    "transfers": {
+      "title": "7. Internationella överföringar",
+      "description": "Om data överförs utanför EES säkerställer vi att lämpliga skyddsåtgärder finns på plats enligt GDPR-kraven."
+    },
+    "complaints": {
+      "title": "8. Klagomål",
+      "description": "Du kan lämna ett klagomål till Integritetsskyddsmyndigheten (IMY):"
+    },
+    "contact": {
+      "title": "9. Kontakt",
+      "question": "Frågor? Kontakta oss på"
+    }
+  },
+  "terms": {
+    "title": "Användarvillkor",
+    "lastUpdated": "Senast uppdaterad:",
+    "acceptance": {
+      "title": "1. Godkännande",
+      "description": "Genom att använda <strong>CareMetrics</strong> godkänner du dessa villkor. Om du inte godkänner dessa villkor, vänligen avsluta användningen av tjänsten."
+    },
+    "service": {
+      "title": "2. Tjänstbeskrivning",
+      "description": "<strong>CareMetrics</strong> är en molnbaserad analysplattform för tandkliniker för att spåra kvalitet, produktion och användning."
+    },
+    "responsibilities": {
+      "title": "3. Dina ansvar",
+      "description": "Du måste vara 18+ och använda tjänsten lagligt. Du är ansvarig för din kontosäkerhet och noggrannheten i data du anger. Du måste följa GDPR och svensk patientdatalag när du behandlar hälso- och sjukvårdsdata."
+    },
+    "prohibited": {
+      "title": "4. Förbjudna användningar",
+      "description": "Använd inte tjänsten olagligt, försök få obehörig åtkomst, introducera skadlig programvara, reverse engineer eller dela kontouppgifter."
+    },
+    "yourData": {
+      "title": "5. Din data",
+      "description": "Du äger din data. Vi behandlar den endast för att tillhandahålla tjänsten. Du är ansvarig för säkerhetskopior. Vi är inte ansvariga för fel i din data."
+    },
+    "ip": {
+      "title": "6. Immateriella rättigheter",
+      "description": "Tjänsten ägs av <strong>CareMetrics</strong>. Kopiera, modifiera eller distribuera den inte utan tillstånd."
+    },
+    "availability": {
+      "title": "7. Tjänsttillgänglighet",
+      "description": "Tjänsten tillhandahålls \"som den är\" utan garantier. Vi garanterar inte tillgänglighet och kan modifiera eller avsluta tjänsten när som helst."
+    },
+    "liability": {
+      "title": "8. Begränsning av ansvar",
+      "description": "I den utsträckning som tillåts enligt lag är <strong>CareMetrics</strong> inte ansvarig för indirekta, tillfälliga eller följdskador. Vårt totala ansvar är begränsat till avgifter som betalats under de föregående 12 månaderna."
+    },
+    "termination": {
+      "title": "9. Uppsägning",
+      "description": "Du kan avsluta ditt konto när som helst. Vi kan avsluta konton som bryter mot dessa villkor. Vid uppsägning upphör din åtkomst och data kan raderas enligt vår integritetspolicy."
+    },
+    "governing": {
+      "title": "10. Tillämplig lag",
+      "description": "Dessa villkor regleras av svensk lag. Tvister är föremål för svenska domstolar."
+    },
+    "changes": {
+      "title": "11. Ändringar",
+      "description": "Vi kan modifiera dessa villkor när som helst. Fortsatt användning efter ändringar innebär godkännande."
+    },
+    "contact": {
+      "title": "12. Kontakt",
+      "question": "Frågor? Kontakta oss på"
+    }
+  }
+}
+

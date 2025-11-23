@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "CareMetrics - Trusted Analytics for Dental Clinics",
+    "description": "Validated clinical data and quality scorecards for dental clinics. <strong>CareMetrics</strong> validates your data before analytics, delivering trusted quality insights with retreatment rates, complication follow-up, and multi-clinic benchmarking."
+  },
+  "nav": {
+    "features": "Features",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Trusted Analytics for",
+    "titleHighlight": "Dental Clinics",
+    "description": "<strong>CareMetrics</strong> delivers <strong>validated clinical data</strong>, <strong>quality scorecards</strong>, and <strong>multi-clinic benchmarking</strong>—helping dental clinics make better decisions with reliable, outcome-oriented insights.",
+    "cta": {
+      "getStarted": "Get Started",
+      "learnMore": "Learn More"
+    }
+  },
+  "features": {
+    "title": "What Makes CareMetrics Different",
+    "subtitle": "<strong>CareMetrics</strong> validates your data before analytics, delivering trusted quality insights and outcome-oriented metrics for dental clinics",
+    "dataValidation": {
+      "title": "Data Validation Engine",
+      "description": "<strong>Unique to CareMetrics:</strong> We validate your data for correctness before analytics. Identify and help resolve missing entries, duplicates, diagnosis mismatches, and incomplete records. Get a data quality score so you can trust your insights."
+    },
+    "qualityScorecards": {
+      "title": "Quality Scorecards",
+      "description": "Outcome-oriented metrics that matter: <strong>Retreatment rates</strong> (within 12 months), <strong>complication follow-up rates</strong>, <strong>recall compliance</strong>, and <strong>preventive vs operative ratios</strong>. Provider-level detail with trend analysis and benchmarking."
+    },
+    "benchmarking": {
+      "title": "Multi-Clinic Benchmarking",
+      "description": "Compare quality metrics and production KPIs across clinics. See how your clinic performs against group medians. Identify outliers and best practices. Essential for clinic chains and groups."
+    },
+    "dashboards": {
+      "title": "Modern Production Dashboards",
+      "description": "Fast-loading dashboards (&lt; 2 seconds) with revenue by provider, visit volumes, treatment categories, and patient mix. Custom filters, mobile-friendly views, and export to CSV/PDF."
+    },
+    "referrals": {
+      "title": "Referral & Collaboration Insights",
+      "description": "Track referral flows, turnaround times, and specialist collaboration patterns. See which referrers send which types of cases and how volumes change over time."
+    },
+    "security": {
+      "title": "Secure & GDPR-Compliant",
+      "description": "Database-per-tenant isolation, encryption in transit and at rest, RBAC access control, and audit logs. Built for Swedish healthcare data protection requirements."
+    }
+  },
+  "about": {
+    "title": "Why CareMetrics?",
+    "paragraph1": "Many dental clinics rely on journal systems and analytics tools that focus primarily on production dashboards. While useful, these tools often lack data validation and outcome-oriented quality insights that help clinics understand and improve their care quality.",
+    "paragraph2": "<strong>CareMetrics</strong> delivers validated clinical data, quality scorecards, and multi-clinic benchmarking—helping dental clinics make better decisions with reliable, outcome-oriented insights. We validate your clinical data before analytics, ensuring you can trust your insights. Our quality scorecards include metrics like retreatment rates and complication follow-up that provide deeper understanding of care quality.",
+    "paragraph3": "Built for dental clinics, specialist clinics, and clinic groups in Sweden. We provide the validated data and quality intelligence you need for better clinical decisions, consistent care standards, and transparent quality evaluation."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to see your clinic more clearly? Let's talk about how <strong>CareMetrics</strong> can help.",
+    "description": "<strong>CareMetrics</strong> is designed for private dental clinics, specialist clinics, and clinic groups that want to work more fact-based and document quality in a structured way.",
+    "email": "Email:",
+    "closing": "See your clinic more clearly. Support better decisions with data. Show patients and staff that you work actively with quality."
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated:",
+    "dataController": {
+      "title": "1. Data Controller",
+      "description": "<strong>CareMetrics</strong> processes personal data in compliance with GDPR (EU) 2016/679 and Swedish data protection laws.",
+      "contact": "Contact:"
+    },
+    "dataCollection": {
+      "title": "2. Data We Collect",
+      "description": "We collect account information, treatment data you enter, and usage data (IP address, browser type, access logs) necessary to provide the service."
+    },
+    "dataUsage": {
+      "title": "3. How We Use Your Data",
+      "description": "We use your data to provide and improve our services, generate analytics reports, and ensure security. Legal basis: contractual necessity, legal obligation, and legitimate interests."
+    },
+    "dataSharing": {
+      "title": "4. Data Sharing",
+      "description": "We do not sell your data. We may share data with service providers under strict agreements, or when required by law."
+    },
+    "rights": {
+      "title": "5. Your Rights",
+      "description": "You have the right to access, rectify, erase, restrict processing, data portability, and object to processing. To exercise these rights, contact us at",
+      "response": "We respond within one month."
+    },
+    "security": {
+      "title": "6. Data Security & Retention",
+      "description": "We implement security measures including encryption and access controls. Data is retained only as long as necessary and securely deleted when no longer needed."
+    },
+    "transfers": {
+      "title": "7. International Transfers",
+      "description": "If data is transferred outside the EEA, we ensure appropriate safeguards are in place per GDPR requirements."
+    },
+    "complaints": {
+      "title": "8. Complaints",
+      "description": "You can lodge a complaint with the Swedish Authority for Privacy Protection (IMY):"
+    },
+    "contact": {
+      "title": "9. Contact",
+      "question": "Questions? Contact us at"
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated:",
+    "acceptance": {
+      "title": "1. Acceptance",
+      "description": "By using <strong>CareMetrics</strong>, you agree to these Terms. If you do not agree with these Terms, please discontinue use of the service."
+    },
+    "service": {
+      "title": "2. Service Description",
+      "description": "<strong>CareMetrics</strong> is a cloud-based analytics platform for dental clinics to track quality, production, and utilization."
+    },
+    "responsibilities": {
+      "title": "3. Your Responsibilities",
+      "description": "You must be 18+ and use the service lawfully. You're responsible for your account security and the accuracy of data you enter. You must comply with GDPR and Swedish Patient Data Act when processing healthcare data."
+    },
+    "prohibited": {
+      "title": "4. Prohibited Uses",
+      "description": "Don't use the service illegally, attempt unauthorized access, introduce malware, reverse engineer, or share account credentials."
+    },
+    "yourData": {
+      "title": "5. Your Data",
+      "description": "You own your data. We process it only to provide the service. You're responsible for backups. We're not liable for errors in your data."
+    },
+    "ip": {
+      "title": "6. Intellectual Property",
+      "description": "The service is owned by <strong>CareMetrics</strong>. Don't copy, modify, or distribute it without permission."
+    },
+    "availability": {
+      "title": "7. Service Availability",
+      "description": "The service is provided \"as is\" without warranties. We don't guarantee availability and may modify or discontinue the service at any time."
+    },
+    "liability": {
+      "title": "8. Limitation of Liability",
+      "description": "To the maximum extent permitted by law, <strong>CareMetrics</strong> is not liable for indirect, incidental, or consequential damages. Our total liability is limited to fees paid in the preceding 12 months."
+    },
+    "termination": {
+      "title": "9. Termination",
+      "description": "You can terminate your account anytime. We may terminate accounts that violate these Terms. Upon termination, your access ends and data may be deleted per our Privacy Policy."
+    },
+    "governing": {
+      "title": "10. Governing Law",
+      "description": "These Terms are governed by Swedish law. Disputes are subject to Swedish courts."
+    },
+    "changes": {
+      "title": "11. Changes",
+      "description": "We may modify these Terms at any time. Continued use after changes means acceptance."
+    },
+    "contact": {
+      "title": "12. Contact",
+      "question": "Questions? Contact us at"
+    }
+  }
+}
+

@@ -1,8 +1,25 @@
 ---
-// Redirect to Swedish version (default)
-return Astro.redirect('/sv/privacy/', 301);
+import Layout from '../../layouts/Layout.astro';
+import { siteConfig } from '../../config/site';
+import { getTranslations, type Language, supportedLanguages } from '../../i18n/utils';
+
+export async function getStaticPaths() {
+  return supportedLanguages.map((lang) => ({
+    params: { lang },
+    props: { lang },
+  }));
+}
+
+interface Props {
+  lang: Language;
+}
+
+const { lang } = Astro.props;
+const t = getTranslations(lang);
+const dateLocale = lang === 'sv' ? 'sv-SE' : 'en-US';
 ---
 
+<Layout>
   <section class="legal-page">
     <div class="container">
       <div class="legal-content">
@@ -10,9 +27,7 @@ return Astro.redirect('/sv/privacy/', 301);
         <p class="last-updated">{t.privacy.lastUpdated} {new Date().toLocaleDateString(dateLocale, { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 
         <h2>{t.privacy.dataController.title}</h2>
-        <p>
-          {t.privacy.dataController.description}
-        </p>
+        <p set:html={t.privacy.dataController.description} />
         <p>
           {t.privacy.dataController.contact} <a href={`mailto:${siteConfig.contact.primaryEmail}`}>{siteConfig.contact.primaryEmail}</a>
         </p>

@@ -1,21 +1,25 @@
 ---
+import { getTranslations, getLocalizedPath, type Language } from '../i18n/utils';
+
+interface Props {
+  lang?: Language;
+}
+
+const currentLang = Astro.props.lang || 'sv';
+const t = getTranslations(currentLang);
 ---
 
 <section class="hero">
   <div class="container">
     <div class="hero-content">
       <h1 class="hero-title">
-        Trusted Analytics for
-        <span class="gradient-text">Dental Clinics</span>
+        {t.hero.title}
+        <span class="gradient-text">{t.hero.titleHighlight}</span>
       </h1>
-      <p class="hero-description">
-        CareMetrics delivers <strong>validated clinical data</strong>, <strong>quality scorecards</strong>, and 
-        <strong>multi-clinic benchmarking</strong>—helping dental clinics make better decisions with reliable, 
-        outcome-oriented insights.
-      </p>
+      <p class="hero-description" set:html={t.hero.description} />
       <div class="hero-cta">
-        <a href="/#contact" class="btn btn-primary">Get Started</a>
-        <a href="/#features" class="btn btn-secondary">Learn More</a>
+        <a href={getLocalizedPath('/#contact', currentLang)} class="btn btn-primary">{t.hero.cta.getStarted}</a>
+        <a href={getLocalizedPath('/#features', currentLang)} class="btn btn-secondary">{t.hero.cta.learnMore}</a>
       </div>
     </div>
   </div>

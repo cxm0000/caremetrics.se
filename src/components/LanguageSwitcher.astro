@@ -1,0 +1,55 @@
+---
+import { getLanguageFromUrl, switchLanguage, supportedLanguages, defaultLanguage, type Language } from '../i18n/utils';
+
+const currentLang = getLanguageFromUrl(Astro.url);
+const langNames: Record<Language, string> = {
+  sv: 'Svenska',
+  en: 'English',
+};
+---
+
+<div class="language-switcher">
+  {supportedLanguages.map((lang) => {
+    const isActive = lang === currentLang;
+    const url = switchLanguage(Astro.url, lang);
+    return (
+      <a
+        href={url}
+        class={`lang-link ${isActive ? 'active' : ''}`}
+        aria-current={isActive ? 'page' : undefined}
+        data-lang={lang}
+      >
+        {langNames[lang]}
+      </a>
+    );
+  })}
+</div>
+
+<style>
+  .language-switcher {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .lang-link {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    transition: all 0.2s;
+  }
+
+  .lang-link:hover {
+    color: var(--color-primary);
+    background: rgba(99, 102, 241, 0.1);
+  }
+
+  .lang-link.active {
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+</style>
+

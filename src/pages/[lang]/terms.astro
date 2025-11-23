@@ -1,18 +1,36 @@
 ---
-// Redirect to Swedish version (default)
-return Astro.redirect('/sv/terms/', 301);
+import Layout from '../../layouts/Layout.astro';
+import { siteConfig } from '../../config/site';
+import { getTranslations, type Language, supportedLanguages } from '../../i18n/utils';
+
+export async function getStaticPaths() {
+  return supportedLanguages.map((lang) => ({
+    params: { lang },
+    props: { lang },
+  }));
+}
+
+interface Props {
+  lang: Language;
+}
+
+const { lang } = Astro.props;
+const t = getTranslations(lang);
+const dateLocale = lang === 'sv' ? 'sv-SE' : 'en-US';
 ---
 
+<Layout>
+  <section class="legal-page">
     <div class="container">
       <div class="legal-content">
         <h1>{t.terms.title}</h1>
         <p class="last-updated">{t.terms.lastUpdated} {new Date().toLocaleDateString(dateLocale, { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 
         <h2>{t.terms.acceptance.title}</h2>
-        <p>{t.terms.acceptance.description}</p>
+        <p set:html={t.terms.acceptance.description} />
 
         <h2>{t.terms.service.title}</h2>
-        <p>{t.terms.service.description}</p>
+        <p set:html={t.terms.service.description} />
 
         <h2>{t.terms.responsibilities.title}</h2>
         <p>{t.terms.responsibilities.description}</p>
@@ -24,13 +42,13 @@ return Astro.redirect('/sv/terms/', 301);
         <p>{t.terms.yourData.description}</p>
 
         <h2>{t.terms.ip.title}</h2>
-        <p>{t.terms.ip.description}</p>
+        <p set:html={t.terms.ip.description} />
 
         <h2>{t.terms.availability.title}</h2>
         <p>{t.terms.availability.description}</p>
 
         <h2>{t.terms.liability.title}</h2>
-        <p>{t.terms.liability.description}</p>
+        <p set:html={t.terms.liability.description} />
 
         <h2>{t.terms.termination.title}</h2>
         <p>{t.terms.termination.description}</p>

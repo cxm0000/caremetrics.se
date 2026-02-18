@@ -9,13 +9,15 @@ interface Props {
   title?: string;
   description?: string;
   image?: string;
+  keywords?: string;
 }
 
 const lang = getLanguageFromUrl(Astro.url);
 const t = getTranslations(lang);
-const { title = t.meta.title, description: rawDescription = t.meta.description, image } = Astro.props;
+const { title = t.meta.title, description: rawDescription = t.meta.description, image, keywords: keywordsProp } = Astro.props;
 // Strip HTML tags from meta description (meta tags can't contain HTML)
 const description = rawDescription.replace(/<[^>]*>/g, '');
+const keywords = keywordsProp ?? (t.meta as { keywords?: string }).keywords;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = image || new URL('/logo.svg', Astro.site).toString();
 
@@ -45,7 +47,7 @@ const organizationSchema = {
   sameAs: Object.values(siteConfig.social).filter(Boolean),
 };
 
-// Structured data for WebSite
+// Structured data for WebSite (no SearchAction - no search page)
 const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -53,14 +55,29 @@ const websiteSchema = {
   url: Astro.site?.toString(),
   description: siteConfig.description,
   inLanguage: supportedLanguages,
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: {
-      '@type': 'EntryPoint',
-      urlTemplate: `${Astro.site}search?q={search_term_string}`,
-    },
-    'query-input': 'required name=search_term_string',
-  },
+};
+
+// SoftwareApplication for the product (helps search engines understand the offering)
+const softwareSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: siteConfig.name,
+  applicationCategory: 'HealthApplication',
+  description: siteConfig.description,
+  url: Astro.site?.toString(),
+  author: organizationSchema,
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'SEK' },
+};
+
+// WebPage for current page
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: title,
+  description,
+  url: canonicalURL.toString(),
+  inLanguage: lang === 'sv' ? 'sv' : 'en',
+  isPartOf: { '@type': 'WebSite', url: Astro.site?.toString(), name: siteConfig.name },
 };
 ---
 
@@ -70,8 +87,10 @@ const websiteSchema = {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    {keywords && <meta name="keywords" content={keywords} />}
     <meta name="author" content={siteConfig.name} />
     <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#6366f1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
@@ -106,6 +125,8 @@ const websiteSchema = {
     <!-- Structured Data -->
     <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(softwareSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)} />
     
     <title>{title}</title>
   </head>

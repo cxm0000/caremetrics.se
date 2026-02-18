@@ -1,7 +1,8 @@
 {
   "meta": {
     "title": "CareMetrics - BI and Analytics for Dental Clinics, Focused on Treatment Quality",
-    "description": "CareMetrics gives you granular treatment and outcome data for follow-up—unlike most EHRs, which are economy-focused. Structure data, follow up on quality, improve your treatments. BI for practice and quality management—not a medical device."
+    "description": "CareMetrics gives you granular treatment and outcome data for follow-up—unlike most EHRs, which are economy-focused. Structure data, follow up on quality, improve your treatments. BI for practice and quality management—not a medical device.",
+    "keywords": "dental BI, treatment quality, dental analytics, outcome data, dental clinic Sweden, quality follow-up, treatment follow-up, dental practice management, vårdkvalitet tandvård"
   },
   "nav": {
     "features": "Features",

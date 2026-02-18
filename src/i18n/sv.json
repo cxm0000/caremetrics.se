@@ -1,7 +1,8 @@
 {
   "meta": {
     "title": "CareMetrics - BI och analys för tandkliniker, med fokus på vårdkvalitet",
-    "description": "CareMetrics ger dig granulär behandlings- och utfallsdata för uppföljning—till skillnad från de flesta journaler som är ekonomiorienterade. Strukturera data, följ upp kvalitet, förbättra dina behandlingar. BI för verksamhets- och kvalitetsstyrning—inte en medicinsk produkt."
+    "description": "CareMetrics ger dig granulär behandlings- och utfallsdata för uppföljning—till skillnad från de flesta journaler som är ekonomiorienterade. Strukturera data, följ upp kvalitet, förbättra dina behandlingar. BI för verksamhets- och kvalitetsstyrning—inte en medicinsk produkt.",
+    "keywords": "BI tandvård, vårdkvalitet, analys tandklinik, utfallsdata, tandklinik Sverige, kvalitetsuppföljning, behandlingsuppföljning, dental analytics"
   },
   "nav": {
     "features": "Funktioner",

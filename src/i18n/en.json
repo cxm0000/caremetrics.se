@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "CareMetrics - BI and Analytics for Dental Clinics, Focused on Treatment Quality",
-    "description": "CareMetrics is a BI and analytics platform for dental clinics, focused on treatment quality. Validated data, quality scorecards, and multi-clinic benchmarking. An analytics and reporting tool for practice and quality management—not a medical device."
+    "description": "CareMetrics gives you granular treatment and outcome data for follow-up—unlike most EHRs, which are economy-focused. Structure data, follow up on quality, improve your treatments. BI for practice and quality management—not a medical device."
   },
   "nav": {
     "features": "Features",
@@ -11,18 +11,18 @@
   "hero": {
     "title": "BI and Analytics for",
     "titleHighlight": "Treatment Quality",
-    "description": "<strong>CareMetrics</strong> is a BI and analytics platform for dental clinics, focused on <strong>treatment quality</strong>. We deliver <strong>validated clinical data</strong>, <strong>quality scorecards</strong>, and <strong>multi-clinic benchmarking</strong>—helping you make better decisions with reliable, outcome-oriented insights.",
+    "description": "<strong>CareMetrics</strong> is built for treatment follow-up and quality—with <strong>granular outcome data</strong> that most EHRs don't provide because their data is economy-focused. Structure your treatment and outcome data, follow up over time, and get insights to improve your treatments.",
     "cta": {
       "getStarted": "Get Started",
       "learnMore": "Learn More"
     }
   },
   "features": {
-    "title": "What Makes CareMetrics Different",
-    "subtitle": "<strong>CareMetrics</strong> validates your data before analytics, delivering trusted quality insights and outcome-oriented metrics for dental clinics focused on treatment quality.",
+    "title": "What CareMetrics Offers",
+    "subtitle": "Most EHRs are built around billing and economy; their data is rarely granular enough for treatment follow-up. <strong>CareMetrics</strong> is built for quality: granular treatment and outcome data, so you can follow up and improve your care.",
     "dataValidation": {
-      "title": "Data Validation Engine",
-      "description": "<strong>Unique to CareMetrics:</strong> We validate your data for correctness before analytics. Identify and help resolve missing entries, duplicates, diagnosis mismatches, and incomplete records. Get a data quality score so you can trust your insights."
+      "title": "Treatment & Outcome Follow-Up",
+      "description": "Register episodes and record outcomes in one place. Spot episodes missing outcomes or incomplete follow-up (e.g. last 7 days or older than 30 days). Keep your follow-up data complete so your quality insights are reliable."
     },
     "qualityScorecards": {
       "title": "Quality Scorecards",
@@ -47,9 +47,9 @@
   },
   "about": {
     "title": "Why CareMetrics?",
-    "paragraph1": "Many dental clinics rely on journal systems and analytics tools that focus primarily on production dashboards. While useful, these tools often lack data validation and outcome-oriented quality insights that help clinics understand and improve their care quality.",
-    "paragraph2": "<strong>CareMetrics</strong> delivers validated clinical data, quality scorecards, and multi-clinic benchmarking—helping dental clinics make better decisions with reliable, outcome-oriented insights. We validate your clinical data before analytics, ensuring you can trust your insights. Our quality scorecards include metrics like retreatment rates and complication follow-up that provide deeper understanding of care quality.",
-    "paragraph3": "Built for dental clinics, specialist clinics, and clinic groups in Sweden. We provide the validated data and quality intelligence you need for better clinical decisions, consistent care standards, and transparent quality evaluation. CareMetrics is an analytics and reporting tool for practice and quality management; it is not a medical device or healthcare service."
+    "paragraph1": "Most EHRs and journal systems are economy-focused: they capture what you bill, not the granular treatment and outcome data you need to follow up and improve your care. Production dashboards are useful, but they rarely support real treatment-quality follow-up.",
+    "paragraph2": "<strong>CareMetrics</strong> is built for follow-up and improvement: granular treatment and outcome data that EHRs don't provide. Structure your episode and outcome data, see quality metrics like retreatment and complication follow-up, and use dashboards to compare over time—so you can make better decisions and improve your treatments.",
+    "paragraph3": "Built for dental clinics, specialist clinics, and clinic groups in Sweden. CareMetrics is an analytics and reporting tool for practice and quality management; it is not a medical device or healthcare service."
   },
   "contact": {
     "title": "Get in Touch",

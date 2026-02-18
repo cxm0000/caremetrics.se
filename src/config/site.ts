@@ -1,8 +1,9 @@
 export const siteConfig = {
   // Site information
   name: 'CareMetrics',
-  tagline: 'Insight for Better Dental Care',
-  description: 'Turn everyday treatment data into clear, actionable insights. CareMetrics helps dental clinics track quality, production, and utilization – clinic-wide and per provider.',
+  tagline: 'BI and analytics for treatment quality',
+  description:
+    'CareMetrics is a BI and analytics platform for dental clinics, focused on treatment quality. We deliver validated data, quality scorecards, and multi-clinic benchmarking. An analytics and reporting tool for practice and quality management—not a medical device.',
   
   // Contact information
   contact: {

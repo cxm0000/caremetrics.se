@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "CareMetrics - Trusted Analytics for Dental Clinics",
-    "description": "Validated clinical data and quality scorecards for dental clinics. <strong>CareMetrics</strong> validates your data before analytics, delivering trusted quality insights with retreatment rates, complication follow-up, and multi-clinic benchmarking."
+    "title": "CareMetrics - BI and Analytics for Dental Clinics, Focused on Treatment Quality",
+    "description": "CareMetrics is a BI and analytics platform for dental clinics, focused on treatment quality. Validated data, quality scorecards, and multi-clinic benchmarking. An analytics and reporting tool for practice and quality management—not a medical device."
   },
   "nav": {
     "features": "Features",
@@ -9,9 +9,9 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Trusted Analytics for",
-    "titleHighlight": "Dental Clinics",
-    "description": "<strong>CareMetrics</strong> delivers <strong>validated clinical data</strong>, <strong>quality scorecards</strong>, and <strong>multi-clinic benchmarking</strong>—helping dental clinics make better decisions with reliable, outcome-oriented insights.",
+    "title": "BI and Analytics for",
+    "titleHighlight": "Treatment Quality",
+    "description": "<strong>CareMetrics</strong> is a BI and analytics platform for dental clinics, focused on <strong>treatment quality</strong>. We deliver <strong>validated clinical data</strong>, <strong>quality scorecards</strong>, and <strong>multi-clinic benchmarking</strong>—helping you make better decisions with reliable, outcome-oriented insights.",
     "cta": {
       "getStarted": "Get Started",
       "learnMore": "Learn More"
@@ -19,7 +19,7 @@
   },
   "features": {
     "title": "What Makes CareMetrics Different",
-    "subtitle": "<strong>CareMetrics</strong> validates your data before analytics, delivering trusted quality insights and outcome-oriented metrics for dental clinics",
+    "subtitle": "<strong>CareMetrics</strong> validates your data before analytics, delivering trusted quality insights and outcome-oriented metrics for dental clinics focused on treatment quality.",
     "dataValidation": {
       "title": "Data Validation Engine",
       "description": "<strong>Unique to CareMetrics:</strong> We validate your data for correctness before analytics. Identify and help resolve missing entries, duplicates, diagnosis mismatches, and incomplete records. Get a data quality score so you can trust your insights."
@@ -33,7 +33,7 @@
       "description": "Compare quality metrics and production KPIs across clinics. See how your clinic performs against group medians. Identify outliers and best practices. Essential for clinic chains and groups."
     },
     "dashboards": {
-      "title": "Modern Production Dashboards",
+      "title": "Flexible Production & Activity Dashboards",
       "description": "Fast-loading dashboards (&lt; 2 seconds) with revenue by provider, visit volumes, treatment categories, and patient mix. Custom filters, mobile-friendly views, and export to CSV/PDF."
     },
     "referrals": {
@@ -49,7 +49,7 @@
     "title": "Why CareMetrics?",
     "paragraph1": "Many dental clinics rely on journal systems and analytics tools that focus primarily on production dashboards. While useful, these tools often lack data validation and outcome-oriented quality insights that help clinics understand and improve their care quality.",
     "paragraph2": "<strong>CareMetrics</strong> delivers validated clinical data, quality scorecards, and multi-clinic benchmarking—helping dental clinics make better decisions with reliable, outcome-oriented insights. We validate your clinical data before analytics, ensuring you can trust your insights. Our quality scorecards include metrics like retreatment rates and complication follow-up that provide deeper understanding of care quality.",
-    "paragraph3": "Built for dental clinics, specialist clinics, and clinic groups in Sweden. We provide the validated data and quality intelligence you need for better clinical decisions, consistent care standards, and transparent quality evaluation."
+    "paragraph3": "Built for dental clinics, specialist clinics, and clinic groups in Sweden. We provide the validated data and quality intelligence you need for better clinical decisions, consistent care standards, and transparent quality evaluation. CareMetrics is an analytics and reporting tool for practice and quality management; it is not a medical device or healthcare service."
   },
   "contact": {
     "title": "Get in Touch",
@@ -116,7 +116,7 @@
     },
     "service": {
       "title": "2. Service Description",
-      "description": "<strong>CareMetrics</strong> is a cloud-based analytics platform for dental clinics to track quality, production, and utilization."
+      "description": "<strong>CareMetrics</strong> is a cloud-based BI and analytics platform for dental clinics, focused on treatment quality. It is an analytics and reporting tool for practice and quality management."
     },
     "responsibilities": {
       "title": "3. Your Responsibilities",

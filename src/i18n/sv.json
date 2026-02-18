@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "CareMetrics - Pålitlig analys för tandkliniker",
-    "description": "Validerad klinisk data och kvalitetsrapporter för tandkliniker. <strong>CareMetrics</strong> validerar din data före analys, och levererar pålitliga kvalitetsinsikter med återbehandlingsfrekvenser, komplikationsuppföljning och flerklinikbenchmarking."
+    "title": "CareMetrics - BI och analys för tandkliniker, med fokus på vårdkvalitet",
+    "description": "CareMetrics är en BI- och analysplattform för tandkliniker med fokus på vårdkvalitet. Validerad data, kvalitetsrapporter och flerklinikbenchmarking. Ett analys- och rapporteringsverktyg för verksamhets- och kvalitetsstyrning—inte en medicinsk produkt eller vårdtjänst."
   },
   "nav": {
     "features": "Funktioner",
@@ -9,9 +9,9 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "title": "Pålitlig analys för",
-    "titleHighlight": "Tandkliniker",
-    "description": "<strong>CareMetrics</strong> levererar <strong>validerad klinisk data</strong>, <strong>kvalitetsrapporter</strong> och <strong>flerklinikbenchmarking</strong>—hjälper tandkliniker att fatta bättre beslut med tillförlitliga, resultatorienterade insikter.",
+    "title": "BI och analys för",
+    "titleHighlight": "vårdkvalitet",
+    "description": "<strong>CareMetrics</strong> är en BI- och analysplattform för tandkliniker med fokus på <strong>vårdkvalitet</strong>. Vi levererar <strong>validerad klinisk data</strong>, <strong>kvalitetsrapporter</strong> och <strong>flerklinikbenchmarking</strong>—så att du kan fatta bättre beslut med tillförlitliga, resultatorienterade insikter.",
     "cta": {
       "getStarted": "Kom igång",
       "learnMore": "Läs mer"
@@ -19,7 +19,7 @@
   },
   "features": {
     "title": "Vad gör CareMetrics unikt",
-    "subtitle": "<strong>CareMetrics</strong> validerar din data före analys, och levererar pålitliga kvalitetsinsikter och resultatorienterade mätvärden för tandkliniker",
+    "subtitle": "<strong>CareMetrics</strong> validerar din data före analys, och levererar pålitliga kvalitetsinsikter och resultatorienterade mätvärden för tandkliniker med fokus på vårdkvalitet.",
     "dataValidation": {
       "title": "Datavalideringsmotor",
       "description": "<strong>Unikt för CareMetrics:</strong> Vi validerar din data för korrekthet före analys. Identifiera och hjälp till att lösa saknade poster, dubbletter, diagnosfelmatchningar och ofullständiga register. Få en datakvalitetspoäng så att du kan lita på dina insikter."
@@ -33,7 +33,7 @@
       "description": "Jämför kvalitetsmätvärden och produktions-KPI:er mellan kliniker. Se hur din klinik presterar mot gruppmedianer. Identifiera avvikelser och bästa praxis. Viktigt för klinikkedjor och grupper."
     },
     "dashboards": {
-      "title": "Moderna produktionsinstrumentpaneler",
+      "title": "Flexibla produktions- och aktivitetsinstrumentpaneler",
       "description": "Snabbladdande instrumentpaneler (&lt; 2 sekunder) med intäkter per leverantör, besöksvolymer, behandlingskategorier och patientmix. Anpassade filter, mobilvänliga vyer och export till CSV/PDF."
     },
     "referrals": {
@@ -49,7 +49,7 @@
     "title": "Varför CareMetrics?",
     "paragraph1": "Många tandkliniker förlitar sig på journalsystem och analysverktyg som främst fokuserar på produktionsinstrumentpaneler. Även om de är användbara saknar dessa verktyg ofta datavalidering och resultatorienterade kvalitetsinsikter som hjälper kliniker att förstå och förbättra sin vårdkvalitet.",
     "paragraph2": "<strong>CareMetrics</strong> levererar validerad klinisk data, kvalitetsrapporter och flerklinikbenchmarking—hjälper tandkliniker att fatta bättre beslut med tillförlitliga, resultatorienterade insikter. Vi validerar din kliniska data före analys, vilket säkerställer att du kan lita på dina insikter. Våra kvalitetsrapporter inkluderar mätvärden som återbehandlingsfrekvenser och komplikationsuppföljning som ger djupare förståelse för vårdkvalitet.",
-    "paragraph3": "Byggd för tandkliniker, specialistkliniker och klinikgrupper i Sverige. Vi tillhandahåller den validerade data och kvalitetsintelligens du behöver för bättre kliniska beslut, konsekventa vårdstandarder och transparent kvalitetsutvärdering."
+    "paragraph3": "Byggd för tandkliniker, specialistkliniker och klinikgrupper i Sverige. Vi tillhandahåller den validerade data och kvalitetsintelligens du behöver för bättre kliniska beslut, konsekventa vårdstandarder och transparent kvalitetsutvärdering. CareMetrics är ett analys- och rapporteringsverktyg för verksamhets- och kvalitetsstyrning; det är inte en medicinsk produkt eller vårdtjänst."
   },
   "contact": {
     "title": "Kontakta oss",
@@ -116,7 +116,7 @@
     },
     "service": {
       "title": "2. Tjänstbeskrivning",
-      "description": "<strong>CareMetrics</strong> är en molnbaserad analysplattform för tandkliniker för att spåra kvalitet, produktion och användning."
+      "description": "<strong>CareMetrics</strong> är en molnbaserad BI- och analysplattform för tandkliniker med fokus på vårdkvalitet. Det är ett analys- och rapporteringsverktyg för verksamhets- och kvalitetsstyrning."
     },
     "responsibilities": {
       "title": "3. Dina ansvar",

@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Hero from '../../components/Hero.astro';
+import FeatureIcon from '../../components/FeatureIcon.astro';
 import { siteConfig } from '../../config/site';
 import { getTranslations, getLocalizedPath, type Language, supportedLanguages, defaultLanguage } from '../../i18n/utils';
 
@@ -32,7 +33,7 @@ const t = getTranslations(lang);
       <div class="features-grid">
         <div class="feature-card">
           <div class="feature-header">
-            <div class="feature-icon">✅</div>
+            <FeatureIcon name="check" />
             <h3>{t.features.dataValidation.title}</h3>
           </div>
           <p set:html={t.features.dataValidation.description} />
@@ -40,7 +41,7 @@ const t = getTranslations(lang);
         
         <div class="feature-card">
           <div class="feature-header">
-            <div class="feature-icon">📊</div>
+            <FeatureIcon name="chart" />
             <h3>{t.features.qualityScorecards.title}</h3>
           </div>
           <p set:html={t.features.qualityScorecards.description} />
@@ -48,7 +49,7 @@ const t = getTranslations(lang);
         
         <div class="feature-card">
           <div class="feature-header">
-            <div class="feature-icon">📈</div>
+            <FeatureIcon name="trend" />
             <h3>{t.features.benchmarking.title}</h3>
           </div>
           <p>{t.features.benchmarking.description}</p>
@@ -56,7 +57,7 @@ const t = getTranslations(lang);
         
         <div class="feature-card">
           <div class="feature-header">
-            <div class="feature-icon">⚡</div>
+            <FeatureIcon name="lightning" />
             <h3>{t.features.dashboards.title}</h3>
           </div>
           <p set:html={t.features.dashboards.description} />
@@ -64,7 +65,7 @@ const t = getTranslations(lang);
         
         <div class="feature-card">
           <div class="feature-header">
-            <div class="feature-icon">🔄</div>
+            <FeatureIcon name="referral" />
             <h3>{t.features.referrals.title}</h3>
           </div>
           <p>{t.features.referrals.description}</p>
@@ -72,7 +73,7 @@ const t = getTranslations(lang);
         
         <div class="feature-card">
           <div class="feature-header">
-            <div class="feature-icon">🔒</div>
+            <FeatureIcon name="lock" />
             <h3>{t.features.security.title}</h3>
           </div>
           <p>{t.features.security.description}</p>
@@ -172,13 +173,6 @@ const t = getTranslations(lang);
     align-items: flex-start;
     gap: 0.75rem;
     margin-bottom: 0.75rem;
-  }
-
-  .feature-icon {
-    font-size: 1.75rem;
-    flex-shrink: 0;
-    line-height: 1;
-    margin-top: 0.125rem;
   }
 
   .feature-card h3 {

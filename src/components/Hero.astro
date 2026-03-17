@@ -27,22 +27,10 @@ const t = getTranslations(currentLang);
 
 <style>
   .hero {
-    padding: 6rem 0 4rem;
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(168, 85, 247, 0.05) 100%);
+    padding: 5rem 0 4.5rem;
+    background: var(--color-bg);
     position: relative;
     overflow: hidden;
-  }
-
-  .hero::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    right: -20%;
-    width: 600px;
-    height: 600px;
-    background: radial-gradient(circle, rgba(99, 102, 241, 0.1) 0%, transparent 70%);
-    border-radius: 50%;
-    pointer-events: none;
   }
 
   .hero-content {
@@ -54,18 +42,16 @@ const t = getTranslations(currentLang);
   }
 
   .hero-title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(2.75rem, 6vw, 3.75rem);
     font-weight: 800;
     line-height: 1.1;
     margin-bottom: 1.5rem;
     color: var(--color-text);
+    letter-spacing: -0.04em;
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--color-primary);
     display: block;
   }
 
@@ -88,35 +74,34 @@ const t = getTranslations(currentLang);
 
   .btn {
     display: inline-block;
-    padding: 0.875rem 2rem;
-    border-radius: 0.5rem;
-    font-weight: 600;
+    padding: 1rem 2.5rem;
+    border-radius: 0.75rem;
+    font-weight: 700;
     text-decoration: none;
-    transition: all 0.3s;
+    transition: all 0.25s ease;
     font-size: 1rem;
     border: 2px solid transparent;
   }
 
   .btn-primary {
-    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
-    color: white;
-    box-shadow: 0 4px 14px rgba(99, 102, 241, 0.3);
+    background: var(--color-secondary); /* care-navy */
+    color: #ffffff;
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.16);
   }
 
   .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+    box-shadow: 0 26px 55px rgba(15, 23, 42, 0.22);
   }
 
   .btn-secondary {
-    background: white;
-    color: var(--color-primary);
-    border-color: var(--color-primary);
+    background: #ffffff;
+    color: var(--color-text);
+    border-color: var(--color-border);
   }
 
   .btn-secondary:hover {
-    background: var(--color-primary);
-    color: white;
+    border-color: var(--color-primary);
     transform: translateY(-2px);
   }
 

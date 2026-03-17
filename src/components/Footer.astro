@@ -14,7 +14,7 @@ const t = getTranslations(currentLang);
   <div class="container">
     <div class="footer-content">
       <div class="footer-section">
-        <img src="/logo.svg" alt={siteConfig.name} class="footer-logo" width="120" height="32" />
+        <img src="/logo-dark.svg" alt={siteConfig.name} class="footer-logo" width="120" height="32" />
         <p class="footer-tagline">{siteConfig.tagline}</p>
       </div>
       <div class="footer-section">
@@ -41,10 +41,14 @@ const t = getTranslations(currentLang);
 
 <style>
   .footer {
-    background: var(--color-bg-secondary);
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    background:
+      radial-gradient(circle at 0% 0%, rgba(15, 159, 183, 0.18), transparent 60%),
+      radial-gradient(circle at 100% 0%, rgba(29, 78, 216, 0.18), transparent 60%),
+      #020617;
+    border-top: 1px solid rgba(15, 23, 42, 0.9);
     padding: 3rem 0 1.5rem;
     margin-top: 4rem;
+    color: #e5e7eb;
   }
 
   .footer-content {
@@ -62,7 +66,7 @@ const t = getTranslations(currentLang);
   }
 
   .footer-tagline {
-    color: var(--color-text-secondary);
+    color: #9ca3af;
     font-size: 0.9rem;
   }
 
@@ -70,7 +74,7 @@ const t = getTranslations(currentLang);
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: var(--color-text);
+    color: #e5e7eb;
   }
 
   .footer-links {
@@ -84,21 +88,21 @@ const t = getTranslations(currentLang);
   }
 
   .footer-links a {
-    color: var(--color-text-secondary);
+    color: #9ca3af;
     text-decoration: none;
     transition: color 0.2s;
     font-size: 0.9rem;
   }
 
   .footer-links a:hover {
-    color: var(--color-primary);
+    color: #38bdf8;
   }
 
   .footer-bottom {
     text-align: center;
     padding-top: 2rem;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
-    color: var(--color-text-secondary);
+    color: #9ca3af;
     font-size: 0.875rem;
   }
 

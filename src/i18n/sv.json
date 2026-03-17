@@ -20,26 +20,26 @@
   },
   "features": {
     "title": "Vad CareMetrics erbjuder",
-    "subtitle": "De flesta journaler är byggda kring fakturering och ekonomi; deras data är sällan tillräckligt granulär för behandlingsuppföljning. <strong>CareMetrics</strong> är byggd för kvalitet: granulär behandlings- och utfallsdata så att du kan följa upp och förbättra din vård.",
+    "subtitle": "<strong>CareMetrics</strong> kopplar ihop dina kliniska episoder med utfalls- och remissdata och gör dem till färdiga kvalitetsanalyser. Registrera behandling och utfall en gång – använd interaktiva dashboards istället för Excel‑exporter.",
     "dataValidation": {
-      "title": "Behandlings- och utfallsuppföljning",
-      "description": "Registrera episoder och utfall på ett ställe. Hitta episoder där utfall saknas eller uppföljning är ofullständig (t.ex. senaste 7 dagarna eller äldre än 30 dagar). Håll uppföljningsdata komplett så att dina kvalitetsinsikter är tillförlitliga."
+      "title": "Registrering av behandlings- och utfallsepisoder",
+      "description": "Registrera episoder med diagnos, terapi, tester, remittent, tand, tekniskt utfall och symtomutfall på ett ställe. Få med födelsedatum och besöksdatum så att du kan analysera åldersgrupper och tidsserier utan extra kalkylblad."
     },
     "qualityScorecards": {
-      "title": "Kvalitetsrapporter",
-      "description": "Resultatorienterade mätvärden som spelar roll: <strong>Återbehandlingsfrekvenser</strong> (inom 12 månader), <strong>komplikationsuppföljningsfrekvenser</strong>, <strong>återkallningsföljsamhet</strong> och <strong>preventiva vs operativa förhållanden</strong>. Leverantörsnivådetaljer med trendanalys och benchmarking."
+      "title": "Fördelningsvyer för kvalitet",
+      "description": "Färdiga fördelningsdiagram för <strong>diagnoser</strong>, <strong>terapier</strong>, <strong>tester</strong>, <strong>tekniskt utfall</strong>, <strong>symtomutfall</strong>, <strong>primärfall</strong> m.m. Växla mellan tabell, tårtdiagram och stapeldiagram och borra ner till de enskilda episoderna."
     },
     "benchmarking": {
-      "title": "Flerklinikbenchmarking",
-      "description": "Jämför kvalitetsmätvärden och produktions-KPI:er mellan kliniker. Se hur din klinik presterar mot gruppmedianer. Identifiera avvikelser och bästa praxis. Viktigt för klinikkedjor och grupper."
+      "title": "Insikter om väntetid och remisser",
+      "description": "Analysera väntetid från remiss till besök i månadsintervall, se hur många episoder som hamnar i varje spann och vilka remittenter som skickar vilka typer av fall. Borra ner från valfri stapel eller tårtbit till patienterna bakom mönstret."
     },
     "dashboards": {
-      "title": "Flexibla produktions- och aktivitetsinstrumentpaneler",
-      "description": "Snabbladdande instrumentpaneler (&lt; 2 sekunder) med intäkter per leverantör, besöksvolymer, behandlingskategorier och patientmix. Anpassade filter, mobilvänliga vyer och export till CSV/PDF."
+      "title": "Analys av behandlingstid",
+      "description": "Automatisk uppdelning av behandlingstider (30–400 min) i intervall med antal, andelar, medelvärden och medianer per intervall. Se hur komplexa dina fall är och hur behandlingstiden fördelar sig i kliniken."
     },
     "referrals": {
-      "title": "Remiss- och samarbetsinsikter",
-      "description": "Spåra remissflöden, omsättningstider och specialistens samarbetsmönster. Se vilka remittenter som skickar vilka typer av ärenden och hur volymerna förändras över tid."
+      "title": "Ålders- och volymtrender",
+      "description": "Få månatliga patientvolymer och åldersfördelning (0–17, 18–29, 30–44, 45–59, 60+) direkt från registrerade data. Följ hur patientmix och aktivitet förändras över tid utan manuell rapportering."
     },
     "security": {
       "title": "Säker och GDPR-kompatibel",
@@ -60,11 +60,11 @@
     "closing": "Se din klinik tydligare. Stöd bättre beslut med data. Visa patienter och personal att du arbetar aktivt med kvalitet."
   },
   "footer": {
-    "quickLinks": "Snabb länkar",
-    "legal": "Juridik",
-    "privacy": "Integritetspolicy",
-    "terms": "Användarvillkor",
-    "rights": "Alla rättigheter förbehållna"
+  "quickLinks": "Snabblänkar",
+  "legal": "Juridik",
+  "privacy": "Integritetspolicy",
+  "terms": "Användarvillkor",
+  "rights": "Alla rättigheter förbehållna"
   },
   "privacy": {
     "title": "Integritetspolicy",

@@ -20,26 +20,26 @@
   },
   "features": {
     "title": "What CareMetrics Offers",
-    "subtitle": "Most EHRs are built around billing and economy; their data is rarely granular enough for treatment follow-up. <strong>CareMetrics</strong> is built for quality: granular treatment and outcome data, so you can follow up and improve your care.",
+    "subtitle": "<strong>CareMetrics</strong> connects your clinical episodes with outcome and referral data and turns them into ready‑to‑use quality analytics. Register treatments and outcomes once, then explore interactive dashboards instead of exporting to Excel.",
     "dataValidation": {
-      "title": "Treatment & Outcome Follow-Up",
-      "description": "Register episodes and record outcomes in one place. Spot episodes missing outcomes or incomplete follow-up (e.g. last 7 days or older than 30 days). Keep your follow-up data complete so your quality insights are reliable."
+      "title": "Treatment & Outcome Episode Capture",
+      "description": "Register episodes with diagnosis, therapy, tests, referrer, tooth, technical outcome and symptom outcome in one place. Capture birth date and visit date so you can analyse age groups and time trends without extra spreadsheets."
     },
     "qualityScorecards": {
-      "title": "Quality Scorecards",
-      "description": "Outcome-oriented metrics that matter: <strong>Retreatment rates</strong> (within 12 months), <strong>complication follow-up rates</strong>, <strong>recall compliance</strong>, and <strong>preventive vs operative ratios</strong>. Provider-level detail with trend analysis and benchmarking."
+      "title": "Quality Distribution Views",
+      "description": "Ready‑made distribution charts for <strong>diagnoses</strong>, <strong>therapies</strong>, <strong>tests</strong>, <strong>technical outcomes</strong>, <strong>symptom outcomes</strong>, <strong>primary cases</strong> and more. Switch between table, pie and bar view and drill down to the underlying episodes."
     },
     "benchmarking": {
-      "title": "Multi-Clinic Benchmarking",
-      "description": "Compare quality metrics and production KPIs across clinics. See how your clinic performs against group medians. Identify outliers and best practices. Essential for clinic chains and groups."
+      "title": "Waiting Time & Referral Insights",
+      "description": "Analyse waiting times from referral to visit in months, see how many episodes fall into each bucket, and review which referrers send which types of cases. Drill down from any bar or slice to the exact patients behind the pattern."
     },
     "dashboards": {
-      "title": "Flexible Production & Activity Dashboards",
-      "description": "Fast-loading dashboards (&lt; 2 seconds) with revenue by provider, visit volumes, treatment categories, and patient mix. Custom filters, mobile-friendly views, and export to CSV/PDF."
+      "title": "Treatment Time Analytics",
+      "description": "Automatically bucket procedure durations (30–400 min) into ranges and get counts, percentages, averages and medians per bucket. See how complex your cases are and how treatment time is distributed across your clinic."
     },
     "referrals": {
-      "title": "Referral & Collaboration Insights",
-      "description": "Track referral flows, turnaround times, and specialist collaboration patterns. See which referrers send which types of cases and how volumes change over time."
+      "title": "Age & Volume Trends",
+      "description": "Get monthly patient volumes and age‑group distributions (0–17, 18–29, 30–44, 45–59, 60+) directly from your registered data. Follow how your patient mix and activity change over time without manual reporting."
     },
     "security": {
       "title": "Secure & GDPR-Compliant",

@@ -82,6 +82,150 @@ const t = getTranslations(lang);
     </div>
   </section>
   
+  <section class="analytics-preview" aria-labelledby="analytics-heading">
+    <div class="container">
+      <div class="analytics-header">
+        <h2 id="analytics-heading">
+          {lang === 'sv' ? 'Exempel på CareMetrics‑grafer' : 'Example CareMetrics Analytics'}
+        </h2>
+        <p class="analytics-subtitle">
+          {lang === 'sv'
+            ? 'Illustrativa exempel på hur diagnoser, väntetider och behandlingstider kan visualiseras i CareMetrics.'
+            : 'Illustrative examples of how diagnoses, waiting times and treatment times can be visualised in CareMetrics.'}
+        </p>
+      </div>
+      
+      <div class="analytics-grid">
+        <div class="analytics-grid-left">
+          <div class="analytics-card">
+          <div class="analytics-card-header">
+            <span class="analytics-pill">
+              {lang === 'sv' ? 'Fördelning' : 'Distribution'}
+            </span>
+            <h3>
+              {lang === 'sv' ? 'Diagnosfördelning' : 'Diagnosis distribution'}
+            </h3>
+          </div>
+          <p class="analytics-card-copy">
+            {lang === 'sv'
+              ? 'Exempel på hur registrerade diagnoser kan visas som fördelningsdiagram med en stapel per diagnos.'
+              : 'Example of how registered diagnoses can be shown as a distribution chart with one bar per diagnosis.'}
+          </p>
+          <div class="analytics-chart analytics-chart--bars" aria-hidden="true">
+            <div class="bar bar--primary" style="height: 72%">
+              <span class="bar-label">Pulpitis</span>
+              <span class="bar-value">42</span>
+            </div>
+            <div class="bar bar--primary" style="height: 56%">
+              <span class="bar-label">Apikal</span>
+              <span class="bar-value">31</span>
+            </div>
+            <div class="bar bar--primary" style="height: 38%">
+              <span class="bar-label">Kronisk</span>
+              <span class="bar-value">18</span>
+            </div>
+            <div class="bar bar--muted" style="height: 22%">
+              <span class="bar-label">
+                {lang === 'sv' ? 'Övrigt' : 'Other'}
+              </span>
+              <span class="bar-value">9</span>
+            </div>
+          </div>
+          </div>
+          
+          <div class="analytics-card">
+          <div class="analytics-card-header">
+            <span class="analytics-pill">
+              {lang === 'sv' ? 'Väntetid' : 'Waiting time'}
+            </span>
+            <h3>
+              {lang === 'sv' ? 'Remiss till besök' : 'Referral to visit'}
+            </h3>
+          </div>
+          <p class="analytics-card-copy">
+            {lang === 'sv'
+              ? 'Illustration av hur väntetid mellan remissdatum och besöksdatum kan grupperas i spann.'
+              : 'Illustration of how waiting time from referral date to visit date can be grouped into ranges.'}
+          </p>
+          <div class="analytics-chart analytics-chart--horizontal" aria-hidden="true">
+            <div class="hbar">
+              <span class="hbar-label">0–1 mån</span>
+              <div class="hbar-track">
+                <div class="hbar-fill hbar-fill--primary" style="width: 55%"></div>
+              </div>
+              <span class="hbar-value">55%</span>
+            </div>
+            <div class="hbar">
+              <span class="hbar-label">1–3 mån</span>
+              <div class="hbar-track">
+                <div class="hbar-fill hbar-fill--primary" style="width: 30%"></div>
+              </div>
+              <span class="hbar-value">30%</span>
+            </div>
+            <div class="hbar">
+              <span class="hbar-label">3–6 mån</span>
+              <div class="hbar-track">
+                <div class="hbar-fill hbar-fill--muted" style="width: 10%"></div>
+              </div>
+              <span class="hbar-value">10%</span>
+            </div>
+            <div class="hbar">
+              <span class="hbar-label">{lang === 'sv' ? '> 6 mån' : '&gt; 6 mo'}</span>
+              <div class="hbar-track">
+                <div class="hbar-fill hbar-fill--muted" style="width: 5%"></div>
+              </div>
+              <span class="hbar-value">5%</span>
+            </div>
+          </div>
+          </div>
+        </div>
+        
+        <div class="analytics-grid-right">
+          <div class="analytics-card analytics-card--primary">
+          <div class="analytics-card-header">
+            <span class="analytics-pill">
+              {lang === 'sv' ? 'Behandlingstid' : 'Treatment time'}
+            </span>
+            <h3>
+              {lang === 'sv' ? 'Tidsintervall (30–400 min)' : 'Duration buckets (30–400 min)'}
+            </h3>
+          </div>
+          <p class="analytics-card-copy">
+            {lang === 'sv'
+              ? 'Exempel på uppdelning av behandlingstider i intervall med antal fall per spann.'
+              : 'Example of splitting procedure durations into buckets with case counts per range.'}
+          </p>
+          <div class="analytics-chart analytics-chart--stacked" aria-hidden="true">
+            <div class="stack-row">
+              <span class="stack-label">30–60</span>
+              <div class="stack-track">
+                <div class="stack-segment stack-segment--primary" style="width: 40%"></div>
+                <div class="stack-segment stack-segment--muted" style="width: 60%"></div>
+              </div>
+              <span class="stack-value">80</span>
+            </div>
+            <div class="stack-row">
+              <span class="stack-label">61–120</span>
+              <div class="stack-track">
+                <div class="stack-segment stack-segment--primary" style="width: 35%"></div>
+                <div class="stack-segment stack-segment--muted" style="width: 65%"></div>
+              </div>
+              <span class="stack-value">70</span>
+            </div>
+            <div class="stack-row">
+              <span class="stack-label">121–180</span>
+              <div class="stack-track">
+                <div class="stack-segment stack-segment--primary" style="width: 15%"></div>
+                <div class="stack-segment stack-segment--muted" style="width: 85%"></div>
+              </div>
+              <span class="stack-value">30</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
   <section id="about" class="about-section" aria-labelledby="about-heading">
     <div class="container">
       <div class="about-content">
@@ -123,12 +267,18 @@ const t = getTranslations(lang);
 
 <style>
   .features-section {
-    background: var(--color-bg);
+    background:
+      radial-gradient(circle at 0% 0%, rgba(15, 159, 183, 0.12), transparent 55%),
+      radial-gradient(circle at 100% 0%, rgba(29, 78, 216, 0.10), transparent 55%),
+      var(--color-bg-secondary);
   }
 
   .section-header {
     text-align: center;
     margin-bottom: 3rem;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .section-subtitle {
@@ -148,20 +298,24 @@ const t = getTranslations(lang);
   }
 
   .feature-card {
-    background: white;
+    background: radial-gradient(circle at 0% 0%, rgba(15, 159, 183, 0.08), transparent 55%), #ffffff;
     padding: 2rem;
     border-radius: var(--radius-lg);
-    border: 2px solid var(--color-border);
-    transition: all 0.3s;
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+    transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease, background 0.28s ease;
     overflow-wrap: break-word;
     word-wrap: break-word;
   }
 
   .feature-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-lg);
-    border-color: var(--color-primary);
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.02) 0%, rgba(168, 85, 247, 0.02) 100%);
+    transform: translateY(-6px);
+    box-shadow: 0 26px 60px rgba(15, 23, 42, 0.16);
+    border-color: rgba(15, 159, 183, 0.7);
+    background:
+      radial-gradient(circle at 0% 0%, rgba(15, 159, 183, 0.16), transparent 55%),
+      radial-gradient(circle at 100% 100%, rgba(29, 78, 216, 0.16), transparent 60%),
+      #ffffff;
   }
 
   .feature-card:hover h3 {
@@ -197,7 +351,8 @@ const t = getTranslations(lang);
   }
 
   .about-section {
-    background: var(--color-bg-secondary);
+    background:
+      linear-gradient(135deg, #f8fafc 0%, #ffffff 40%, #e0f2fe 100%);
   }
 
   .about-content {
@@ -217,7 +372,11 @@ const t = getTranslations(lang);
   }
 
   .contact-section {
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(168, 85, 247, 0.05) 100%);
+    background:
+      radial-gradient(circle at 0% 0%, rgba(15, 159, 183, 0.18), transparent 60%),
+      radial-gradient(circle at 100% 0%, rgba(29, 78, 216, 0.18), transparent 60%),
+      linear-gradient(135deg, #0b1727 0%, #020617 100%);
+    color: #e2e8f0;
   }
 
   .contact-content {
@@ -228,18 +387,253 @@ const t = getTranslations(lang);
 
   .contact-info p {
     font-size: 1.125rem;
-    color: var(--color-text-secondary);
+    color: #cbd5f5;
     margin-bottom: 1rem;
   }
 
+  .contact-info strong {
+    color: #e5e7eb;
+  }
+
   .contact-info a {
-    color: var(--color-primary);
+    color: #38bdf8;
     font-weight: 600;
     text-decoration: none;
   }
 
   .contact-info a:hover {
     text-decoration: underline;
+  }
+
+  .analytics-preview {
+    background: var(--color-bg);
+  }
+
+  .analytics-header {
+    text-align: left;
+    max-width: 720px;
+    margin: 0 auto 3rem;
+  }
+
+  .analytics-header h2 {
+    font-size: clamp(1.9rem, 3vw, 2.4rem);
+    margin-bottom: 0.75rem;
+  }
+
+  .analytics-subtitle {
+    font-size: 1.05rem;
+    color: var(--color-text-secondary);
+    max-width: 640px;
+  }
+
+  .analytics-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.4fr);
+    gap: 2.25rem;
+    align-items: stretch;
+  }
+
+  .analytics-grid-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+
+  .analytics-grid-right {
+    display: flex;
+    height: 100%;
+  }
+
+  .analytics-card {
+    background: #ffffff;
+    border-radius: var(--radius-lg);
+    padding: 1.75rem;
+    border: 1px solid rgba(226, 232, 240, 0.9);
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.06);
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .analytics-card--primary {
+    width: 100%;
+  }
+
+  .analytics-card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .analytics-card-header h3 {
+    font-size: 1.1rem;
+    margin: 0;
+    color: var(--color-text);
+  }
+
+  .analytics-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2rem 0.65rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: rgba(20, 184, 166, 0.08);
+    color: var(--color-primary);
+  }
+
+  .analytics-card-copy {
+    font-size: 0.95rem;
+    color: var(--color-text-secondary);
+  }
+
+  .analytics-chart {
+    border-radius: 1rem;
+    padding: 1rem;
+    background: radial-gradient(circle at 0% 0%, rgba(20, 184, 166, 0.06), transparent 55%),
+      radial-gradient(circle at 100% 100%, rgba(15, 23, 42, 0.06), transparent 55%),
+      #f8fafc;
+    border: 1px dashed rgba(148, 163, 184, 0.6);
+  }
+
+  .analytics-chart--bars {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.75rem;
+    height: 180px;
+  }
+
+  .bar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .bar::before {
+    content: '';
+    display: block;
+    width: 100%;
+    border-radius: 999px 999px 4px 4px;
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.1), rgba(15, 23, 42, 0.02));
+  }
+
+  .bar--primary::before {
+    background: linear-gradient(180deg, rgba(20, 184, 166, 0.85), rgba(20, 184, 166, 0.5));
+  }
+
+  .bar--muted::before {
+    background: linear-gradient(180deg, rgba(148, 163, 184, 0.9), rgba(148, 163, 184, 0.5));
+  }
+
+  .bar::before {
+    height: 100%;
+  }
+
+  .bar-label {
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+  }
+
+  .bar-value {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .analytics-chart--horizontal {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .hbar {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .hbar-label {
+    color: var(--color-text-secondary);
+  }
+
+  .hbar-track {
+    position: relative;
+    height: 0.6rem;
+    border-radius: 999px;
+    background: rgba(148, 163, 184, 0.25);
+    overflow: hidden;
+  }
+
+  .hbar-fill {
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+  }
+
+  .hbar-fill--primary {
+    background: linear-gradient(90deg, var(--color-primary), rgba(20, 184, 166, 0.6));
+  }
+
+  .hbar-fill--muted {
+    background: linear-gradient(90deg, rgba(148, 163, 184, 0.9), rgba(148, 163, 184, 0.5));
+  }
+
+  .hbar-value {
+    font-variant-numeric: tabular-nums;
+    color: var(--color-text);
+    font-weight: 600;
+  }
+
+  .analytics-chart--stacked {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    font-size: 0.8rem;
+  }
+
+  .stack-row {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .stack-label {
+    color: var(--color-text-secondary);
+  }
+
+  .stack-track {
+    position: relative;
+    height: 0.6rem;
+    border-radius: 999px;
+    background: rgba(15, 23, 42, 0.08);
+    overflow: hidden;
+    display: flex;
+  }
+
+  .stack-segment {
+    height: 100%;
+  }
+
+  .stack-segment--primary {
+    background: linear-gradient(90deg, var(--color-primary), rgba(20, 184, 166, 0.7));
+  }
+
+  .stack-segment--muted {
+    background: rgba(148, 163, 184, 0.4);
+  }
+
+  .stack-value {
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    color: var(--color-text);
   }
 
   @media (max-width: 768px) {
@@ -254,6 +648,15 @@ const t = getTranslations(lang);
 
     .section-header {
       margin-bottom: 2rem;
+    }
+
+    .analytics-header,
+    .analytics-grid {
+      margin-bottom: 2rem;
+    }
+
+    .analytics-grid {
+      grid-template-columns: minmax(0, 1fr);
     }
   }
 </style>

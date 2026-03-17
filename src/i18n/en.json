@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "CareMetrics - BI and Analytics for Dental Clinics, Focused on Treatment Quality",
-    "description": "CareMetrics gives you granular treatment and outcome data for follow-up—unlike most EHRs, which are economy-focused. Structure data, follow up on quality, improve your treatments. BI for practice and quality management—not a medical device.",
-    "keywords": "dental BI, treatment quality, dental analytics, outcome data, dental clinic Sweden, quality follow-up, treatment follow-up, dental practice management, vårdkvalitet tandvård"
+    "title": "CareMetrics - BI and Analytics for Dental Clinics and Group Owners",
+    "description": "CareMetrics is a BI and analytics platform for dental clinic owners and group practices in Sweden. It connects treatment episodes, outcomes and referral data so you can follow up on treatment quality—not just production—and improve clinical decisions.",
+    "keywords": "dental BI, dental business intelligence, treatment quality, dental analytics, outcome data, dental clinic owners, dental group owners, Sweden, quality follow-up, treatment follow-up, dental practice management"
   },
   "nav": {
     "features": "Features",
@@ -11,8 +11,8 @@
   },
   "hero": {
     "title": "BI and Analytics for",
-    "titleHighlight": "Treatment Quality",
-    "description": "<strong>CareMetrics</strong> is built for treatment follow-up and quality—with <strong>granular outcome data</strong> that most EHRs don't provide because their data is economy-focused. Structure your treatment and outcome data, follow up over time, and get insights to improve your treatments.",
+    "titleHighlight": "Dental Clinic Owners",
+    "description": "<strong>CareMetrics</strong> is a BI platform for dental clinic owners and group practices in Sweden. It focuses on <strong>treatment quality</strong>: connecting episodes, outcomes and referrals so you can follow up on care—not just production—and act on clear dashboards instead of Excel exports.",
     "cta": {
       "getStarted": "Get Started",
       "learnMore": "Learn More"
@@ -50,12 +50,12 @@
     "title": "Why CareMetrics?",
     "paragraph1": "Most EHRs and journal systems are economy-focused: they capture what you bill, not the granular treatment and outcome data you need to follow up and improve your care. Production dashboards are useful, but they rarely support real treatment-quality follow-up.",
     "paragraph2": "<strong>CareMetrics</strong> is built for follow-up and improvement: granular treatment and outcome data that EHRs don't provide. Structure your episode and outcome data, see quality metrics like retreatment and complication follow-up, and use dashboards to compare over time—so you can make better decisions and improve your treatments.",
-    "paragraph3": "Built for dental clinics, specialist clinics, and clinic groups in Sweden. CareMetrics is an analytics and reporting tool for practice and quality management; it is not a medical device or healthcare service."
+    "paragraph3": "CareMetrics is built for dental clinics, specialist clinics and dental groups in Sweden. It is a BI and analytics tool for dental clinic owners and managers who want to document and improve treatment quality; it is not a medical device or healthcare service."
   },
   "contact": {
     "title": "Get in Touch",
-    "subtitle": "Ready to see your clinic more clearly? Let's talk about how <strong>CareMetrics</strong> can help.",
-    "description": "<strong>CareMetrics</strong> is designed for private dental clinics, specialist clinics, and clinic groups that want to work more fact-based and document quality in a structured way.",
+    "subtitle": "Ready to see your dental clinic or group more clearly? Let's talk about how <strong>CareMetrics</strong> can help.",
+    "description": "<strong>CareMetrics</strong> is designed for private dental clinics, specialist clinics, and clinic groups that want BI for treatment quality—granular episode and outcome data that goes beyond production dashboards.",
     "email": "Email:",
     "closing": "See your clinic more clearly. Support better decisions with data. Show patients and staff that you work actively with quality."
   },
@@ -65,6 +65,27 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "rights": "All rights reserved"
+  },
+  "faq": {
+    "title": "Questions from dental clinic owners",
+    "items": [
+      {
+        "q": "What is CareMetrics?",
+        "a": "<strong>CareMetrics</strong> is a BI and analytics platform for dental clinic owners and group practices in Sweden. It connects treatment episodes, outcomes, referrals and patient data so you can measure and improve treatment quality, not just track production."
+      },
+      {
+        "q": "Who is CareMetrics for?",
+        "a": "CareMetrics is built for <strong>private dental clinics, specialist clinics and dental groups</strong> that want to follow up on treatment quality. Typical users are clinic owners, group management and quality leads who need reliable numbers rather than ad‑hoc Excel reports."
+      },
+      {
+        "q": "How does CareMetrics differ from normal production dashboards?",
+        "a": "Traditional dashboards focus on billing and production. CareMetrics focuses on <strong>episodes and outcomes</strong>: diagnoses, therapies, tests, referrers, waiting times, treatment times, age groups and outcomes. That lets you talk about retreatment, complication follow‑up and access—topics that matter for clinical quality."
+      },
+      {
+        "q": "Does CareMetrics work with Swedish dental clinics?",
+        "a": "Yes. CareMetrics is designed for <strong>dental clinics and dental groups in Sweden</strong> and is built with Swedish healthcare data protection and GDPR requirements in mind."
+      }
+    ]
   },
   "privacy": {
     "title": "Privacy Policy",

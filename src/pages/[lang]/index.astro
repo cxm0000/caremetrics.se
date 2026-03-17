@@ -243,6 +243,24 @@ const t = getTranslations(lang);
     </div>
   </section>
   
+  <section id="faq" class="faq-section" aria-labelledby="faq-heading">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2 id="faq-heading">{t.faq.title}</h2>
+          <div class="faq-list">
+            {t.faq.items?.map((item) => (
+              <details class="faq-item">
+                <summary>{item.q}</summary>
+                <p class="faq-answer" set:html={item.a} />
+              </details>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
   <section id="contact" class="contact-section" aria-labelledby="contact-heading">
     <div class="container">
       <div class="section-header">
@@ -369,6 +387,57 @@ const t = getTranslations(lang);
     line-height: 1.8;
     color: var(--color-text-secondary);
     margin-bottom: 1.25rem;
+  }
+
+  .faq-section {
+    background: var(--color-bg);
+  }
+
+  .faq-list {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .faq-item {
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border);
+    background: #ffffff;
+    padding: 0.85rem 1rem;
+  }
+
+  .faq-item[open] {
+    border-color: rgba(20, 184, 166, 0.6);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+  }
+
+  .faq-item summary {
+    list-style: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-item summary::after {
+    content: '+';
+    float: right;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+  }
+
+  .faq-item[open] summary::after {
+    content: '–';
+  }
+
+  .faq-answer {
+    margin-top: 0.5rem;
+    font-size: 0.975rem;
+    color: var(--color-text-secondary);
   }
 
   .contact-section {

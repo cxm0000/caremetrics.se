@@ -57,16 +57,46 @@ const websiteSchema = {
   inLanguage: supportedLanguages,
 };
 
-// SoftwareApplication for the product (helps search engines understand the offering)
+// SoftwareApplication for the product (helps search engines and LLMs understand the offering)
 const softwareSchema = {
   '@context': 'https://schema.org',
   '@type': 'SoftwareApplication',
   name: siteConfig.name,
-  applicationCategory: 'HealthApplication',
+  applicationCategory: ['BusinessApplication', 'HealthApplication'],
   description: siteConfig.description,
   url: Astro.site?.toString(),
   author: organizationSchema,
+  audience: {
+    '@type': 'Audience',
+    audienceType: ['Dental clinic owners', 'Dental group management', 'Specialist dental clinics'],
+  },
   offers: { '@type': 'Offer', price: '0', priceCurrency: 'SEK' },
+};
+
+// FAQ for dental BI (used on homepage; still helpful for LLMs site-wide)
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What is CareMetrics?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text:
+          'CareMetrics is a BI and analytics platform for dental clinic owners and group practices in Sweden. It connects treatment episodes, outcomes and referral data so you can measure and improve treatment quality.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Who is CareMetrics for?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text:
+          'CareMetrics is built for private dental clinics, specialist clinics and dental groups that want reliable quality analytics instead of manual Excel reports.',
+      },
+    },
+  ],
 };
 
 // WebPage for current page
@@ -135,6 +165,7 @@ const webPageSchema = {
     <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(softwareSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
     
     <title>{title}</title>
   </head>

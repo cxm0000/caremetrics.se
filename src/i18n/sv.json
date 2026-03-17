@@ -60,11 +60,32 @@
     "closing": "Se din klinik tydligare. Stöd bättre beslut med data. Visa patienter och personal att du arbetar aktivt med kvalitet."
   },
   "footer": {
-  "quickLinks": "Snabblänkar",
-  "legal": "Juridik",
-  "privacy": "Integritetspolicy",
-  "terms": "Användarvillkor",
-  "rights": "Alla rättigheter förbehållna"
+    "quickLinks": "Snabblänkar",
+    "legal": "Juridik",
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "rights": "Alla rättigheter förbehållna"
+  },
+  "faq": {
+    "title": "Vanliga frågor från tandkliniksägare",
+    "items": [
+      {
+        "q": "Vad är CareMetrics?",
+        "a": "<strong>CareMetrics</strong> är en BI‑ och analysplattform för tandkliniksägare och klinikgrupper i Sverige. Den kopplar ihop behandlings‑episoder, utfall, remisser och patientdata så att du kan mäta och förbättra vårdkvalitet – inte bara följa produktion."
+      },
+      {
+        "q": "Vem är CareMetrics för?",
+        "a": "CareMetrics är byggt för <strong>privata tandkliniker, specialistkliniker och klinikgrupper</strong> som vill följa upp vårdkvalitet. Typiska användare är tandkliniksägare, verksamhetschefer och kvalitetsansvariga som behöver pålitliga siffror istället för ad‑hoc‑rapporter i Excel."
+      },
+      {
+        "q": "Hur skiljer sig CareMetrics från vanliga produktionsrapporter?",
+        "a": "Traditionella rapporter fokuserar på fakturering och produktion. CareMetrics fokuserar på <strong>episoder och utfall</strong>: diagnoser, terapier, tester, remittenter, väntetider, behandlingstider, åldersgrupper och utfall. Det gör att du kan prata om återbehandling, komplikationsuppföljning och tillgänglighet – sådant som spelar roll för vårdkvalitet."
+      },
+      {
+        "q": "Fungerar CareMetrics för svenska tandkliniker?",
+        "a": "Ja. CareMetrics är designat för <strong>tandkliniker och klinikgrupper i Sverige</strong> och är byggt med svenska krav på dataskydd och GDPR i åtanke."
+      }
+    ]
   },
   "privacy": {
     "title": "Integritetspolicy",
